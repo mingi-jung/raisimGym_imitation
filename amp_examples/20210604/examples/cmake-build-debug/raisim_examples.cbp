@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raisim_examples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\raisim\;CMake Files\..\raisim\linux\;CMake Files\..\raisim\linux\lib\;CMake Files\..\raisim\linux\lib\cmake\;CMake Files\..\raisim\linux\lib\cmake\raisim\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xmlRader">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/xmlRader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xmlRader"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xmlRader/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/xmlRader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xmlRader/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ampmotion">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/ampmotion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ampmotion"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ampmotion/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/ampmotion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ampmotion/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compound">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/compound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 compound"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compound/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/compound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 compound/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualObjects">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/visualObjects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualObjects"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visualObjects/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/visualObjects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 visualObjects/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newtonsCradle">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/newtonsCradle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 newtonsCradle"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newtonsCradle/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/newtonsCradle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 newtonsCradle/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rayDemo2">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/rayDemo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rayDemo2"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rayDemo2/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/rayDemo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rayDemo2/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wheeledRobot">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/wheeledRobot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeledRobot"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wheeledRobot/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/wheeledRobot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 wheeledRobot/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="laikago">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/laikago" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 laikago"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="laikago/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/laikago" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 laikago/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atlas">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/atlas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 atlas"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atlas/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/atlas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 atlas/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightMapUsingPng">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/heightMapUsingPng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 heightMapUsingPng"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightMapUsingPng/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/heightMapUsingPng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 heightMapUsingPng/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="meshes">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/meshes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 meshes"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="meshes/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/meshes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 meshes/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="anymals">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/anymals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 anymals"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="anymals/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/anymals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 anymals/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="anymal_speed_test">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/anymal_speed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 anymal_speed_test"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="anymal_speed_test/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/anymal_speed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 anymal_speed_test/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="balls">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/balls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 balls"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="balls/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/balls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 balls/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primitives">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/primitives" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 primitives"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primitives/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/primitives" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 primitives/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robots">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/robots" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 robots"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robots/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/robots" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 robots/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rayDemo">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/rayDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rayDemo"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rayDemo/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/rayDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rayDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="materials">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/materials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 materials"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="materials/fast">
+				<Option output="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/materials" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRSDEBUG"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/examples/include"/>
+					<Add directory="/home/skoo/Works/raisim_20210214/raisimlib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 materials/fast"/>
+					<CompileFile command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j128 -f &quot;/home/skoo/Works/raisim_20210214/raisimlib/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/benchmark/anymal.cpp">
+			<Option target="anymal_speed_test"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/amp_motion.cpp">
+			<Option target="ampmotion"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/anymals.cpp">
+			<Option target="anymals"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/atlas.cpp">
+			<Option target="atlas"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/balls.cpp">
+			<Option target="balls"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/compound.cpp">
+			<Option target="compound"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/heightMapUsingPng.cpp">
+			<Option target="heightMapUsingPng"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/heightmap.cpp">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/laikago.cpp">
+			<Option target="laikago"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/material.cpp">
+			<Option target="materials"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/meshes.cpp">
+			<Option target="meshes"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/newtonsCradle.cpp">
+			<Option target="newtonsCradle"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/primitives.cpp">
+			<Option target="primitives"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/rayDemo.cpp">
+			<Option target="rayDemo"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/rayDemo2.cpp">
+			<Option target="rayDemo2"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/robots.cpp">
+			<Option target="robots"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/visualObjects.cpp">
+			<Option target="visualObjects"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/server/wheeledRobot.cpp">
+			<Option target="wheeledRobot"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/src/xml/xmlReader.cpp">
+			<Option target="xmlRader"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../raisim/linux/lib/cmake/raisim/raisim-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../raisim/linux/lib/cmake/raisim/raisim-targets.cmake">
+			<Option virtualFolder="CMake Files\..\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../raisim/linux/lib/cmake/raisim/raisimConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../raisim/linux/lib/cmake/raisim/raisimConfig.cmake">
+			<Option virtualFolder="CMake Files\..\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../../../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../../../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/skoo/Works/raisim_20210214/raisimlib/examples/../../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

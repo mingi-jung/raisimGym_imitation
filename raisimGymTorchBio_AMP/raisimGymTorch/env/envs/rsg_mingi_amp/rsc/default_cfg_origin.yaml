@@ -1,0 +1,24 @@
+seed: 1
+record_video: yes
+
+environment:
+  render: True
+  num_envs: 100
+  eval_every_n: 50
+  num_threads: 8
+  simulation_dt: 0.001
+  control_dt: 0.01
+  max_time: 7
+  forwardVelRewardCoeff: 1
+  torqueRewardCoeff: 0
+  ref_motion_file: /home/opensim2020/Desktop/DeepMimic/data/motions/humanoid/humanoid3d_walk_more.txt
+  angularPosRewardCoeff: 0.65
+  angularVelRewardCoeff: 0.1
+  endeffPosRewardCoeff: 0.15
+  comPosRewardCoeff: 0.1
+
+  forceRewardCoeff: 0
+  noptepochs: 10
+  nminibatches: 10
+  learning_rate: 1e-3
+  total_timesteps: 800000000

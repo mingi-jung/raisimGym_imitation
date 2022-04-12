@@ -1,0 +1,47 @@
+seed: 1
+record_video: False
+
+environment:
+  render: False
+  num_envs: 200
+  eval_every_n: 100
+  num_threads: 100
+  simulation_dt: 0.001
+  control_dt: 0.01
+  max_time: 4.0
+  total_timesteps: 10000000000
+  noptepochs: 4
+  nminibatches: 4
+  learning_rate: 1.5e-4
+  #==REWARD COEFFS=================
+  angularPosRewardCoeff: 0.65
+  angularVelRewardCoeff: 0.1
+  endeffPosRewardCoeff: 0.15
+  comPosRewardCoeff: 0.1
+  #==REF MOTIONS===================
+  num_ref_motion: 4
+  ref_motion_file_1: "subject06_walking13_straight03_cyclic.txt"
+  ref_motion_file_2: "subject06_walking18_straight03_cyclic.txt"
+  ref_motion_file_3: "subject06_walking21_straight01_cyclic.txt"
+  ref_motion_file_4: "subject06_walking11_run_cyclic.txt"
+  ref_motion_speed_1: 1.05
+  ref_motion_speed_2: 0.63
+  ref_motion_speed_3: 1.33
+  ref_motion_speed_4: 3.91
+  #==AMP=========================
+  expert_motion_sample: "AMP_subject06_aug.json"
+  use_rasim_pdcontrol: 1
+  use_muscle: 0
+  use_direct_torque: 0
+  #==CURRICULUM===================
+  # curriculum_phase: 0
+  # curriculum_start: 5
+  # curriculum_call_init: 0
+  #==STEP INFO=====================
+  train_info_on: 1
+  test_info_joint_pos_on: 0
+  test_info_joint_vel_on: 0
+  test_info_muscle_force_on: 0
+architecture:
+  policy_net: [256, 256]
+  value_net: [256, 256]

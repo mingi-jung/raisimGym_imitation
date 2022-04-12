@@ -1,0 +1,2 @@
+그냥 aug는 exp에서 running 모션 deepmimic으로 학습시킨거 40초 추가한거.
+aug_v2는 exp에서 running 모션 deepmimic으로 학습시킨거 20초 추가한거.

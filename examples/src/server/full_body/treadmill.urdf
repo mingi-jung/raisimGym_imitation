@@ -1,0 +1,45 @@
+<!-- Authors: Inkyu and Jemin 5/Aug/2019 -->
+<!-- contact:enddl22@gmail.com -->
+
+<?xml version="1.0"?>
+<robot name="Treadmills">
+  <link name="world">  </link>
+
+  <joint name="world_to_base" type="fixed">
+    <axis xyz="0 0 0"/>
+    <origin xyz="0.0 0.0 -0.086"/>
+    <parent link="world"/>
+    <child link="base"/>
+  </joint>
+
+  <link name="base">
+  </link>
+
+  <link name="treadmill">
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="0.5417" ixy="0.0" ixz="0.0" iyy="1333.3417" iyz="0.0" izz="1333.8667"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="40 0.8 0.1"/>
+      </geometry>
+      <origin xyz="17 1.2 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="40 0.8 0.1"/>
+      </geometry>
+      <origin xyz="17 1.2 0"/>
+    </collision>
+  </link>
+
+  <joint name="belt_joint" type="prismatic">
+    <axis xyz="1 0 0"/>
+    <origin xyz="0.0 0.0 0.0"/>
+    <parent link="base"/>
+    <child link="treadmill"/>
+    <limit effort="1000.0" lower="-50" upper="50"/>
+  </joint>
+
+</robot>

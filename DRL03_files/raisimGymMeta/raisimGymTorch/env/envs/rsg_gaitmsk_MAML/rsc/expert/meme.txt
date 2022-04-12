@@ -1,0 +1,1 @@
+AMP_subject_aug_v2는 달리기 augmentation 20초만 추가한 것

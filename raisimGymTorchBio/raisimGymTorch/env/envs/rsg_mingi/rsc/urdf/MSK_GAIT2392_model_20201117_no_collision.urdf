@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+<robot name="osim_robot">
+  <link name="pelvis">
+    <inertial>
+      <mass value="11.777" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.1028" ixy="0.0" ixz="0.0" iyy="0.0871" iyz="0.0" izz="0.0579" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_pelvis.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/l_pelvis.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual3">
+      <geometry>
+        <mesh filename="Geometry/sacrum.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="femur_r">
+    <inertial>
+      <mass value="9.3014" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.1339" ixy="0.0" ixz="0.0" iyy="0.0351" iyz="0.0" izz="0.1412" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_femur.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="tibia_r">
+    <inertial>
+      <mass value="3.7075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0504" ixy="0.0" ixz="0.0" iyy="0.0051" iyz="0.0" izz="0.0511" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_tibia.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/r_fibula.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="patella_r">
+    <inertial>
+      <mass value="0.0862" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="2.87e-06" ixy="0.0" ixz="0.0" iyy="1.311e-05" iyz="0.0" izz="1.311e-05" />
+    </inertial>
+    <!--<visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_patella.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>-->
+  </link>
+  <link name="talus_r">
+    <inertial>
+      <mass value="0.1" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_talus.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="calcn_r">
+    <inertial>
+      <mass value="1.25" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0014" ixy="0.0" ixz="0.0" iyy="0.0039" iyz="0.0" izz="0.0041" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_foot.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="toes_r">
+    <inertial>
+      <mass value="0.2166" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0002" iyz="0.0" izz="0.001" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/r_bofoot.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="femur_l">
+    <inertial>
+      <mass value="9.3014" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.1339" ixy="0.0" ixz="0.0" iyy="0.0351" iyz="0.0" izz="0.1412" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_femur.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="tibia_l">
+    <inertial>
+      <mass value="3.7075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0504" ixy="0.0" ixz="0.0" iyy="0.0051" iyz="0.0" izz="0.0511" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_tibia.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/l_fibula.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="patella_l">
+    <inertial>
+      <mass value="0.0862" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="2.87e-06" ixy="0.0" ixz="0.0" iyy="1.311e-05" iyz="0.0" izz="1.311e-05" />
+    </inertial>
+    <!--<visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_patella.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>-->
+  </link>
+  <link name="talus_l">
+    <inertial>
+      <mass value="0.1" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_talus.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="calcn_l">
+    <inertial>
+      <mass value="1.25" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0014" ixy="0.0" ixz="0.0" iyy="0.0039" iyz="0.0" izz="0.0041" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_foot.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="toes_l">
+    <inertial>
+      <mass value="0.2166" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0002" iyz="0.0" izz="0.001" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/l_bofoot.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="torso">
+    <inertial>
+      <mass value="26.8266" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="1.4745" ixy="0.0" ixz="0.0" iyy="0.7555" iyz="0.0" izz="1.4314" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/hat_spine.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/hat_jaw.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual3">
+      <geometry>
+        <mesh filename="Geometry/hat_skull.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual4">
+      <geometry>
+        <mesh filename="Geometry/hat_ribs_scap.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="humerus_r">
+    <inertial>
+      <mass value="2.0325" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.011946" ixy="0.0" ixz="0.0" iyy="0.004121" iyz="0.0" izz="0.013409" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/humerus_rv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="ulna_r">
+    <inertial>
+      <mass value="0.6075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.002962" ixy="0.0" ixz="0.0" iyy="0.000618" iyz="0.0" izz="0.003213" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/ulna_rv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="radius_r">
+    <inertial>
+      <mass value="0.6075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.002962" ixy="0.0" ixz="0.0" iyy="0.000618" iyz="0.0" izz="0.003213" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/radius_rv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="hand_r">
+    <inertial>
+      <mass value="0.4575" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.000892" ixy="0.0" ixz="0.0" iyy="0.000547" iyz="0.0" izz="0.00134" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/pisiform_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/lunate_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual3">
+      <geometry>
+        <mesh filename="Geometry/scaphoid_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual4">
+      <geometry>
+        <mesh filename="Geometry/triquetrum_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual5">
+      <geometry>
+        <mesh filename="Geometry/hamate_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual6">
+      <geometry>
+        <mesh filename="Geometry/capitate_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual7">
+      <geometry>
+        <mesh filename="Geometry/trapezoid_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual8">
+      <geometry>
+        <mesh filename="Geometry/trapezium_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual9">
+      <geometry>
+        <mesh filename="Geometry/metacarpal2_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual10">
+      <geometry>
+        <mesh filename="Geometry/index_proximal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual11">
+      <geometry>
+        <mesh filename="Geometry/index_medial_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual12">
+      <geometry>
+        <mesh filename="Geometry/index_distal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual13">
+      <geometry>
+        <mesh filename="Geometry/metacarpal3_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual14">
+      <geometry>
+        <mesh filename="Geometry/middle_proximal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual15">
+      <geometry>
+        <mesh filename="Geometry/middle_medial_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual16">
+      <geometry>
+        <mesh filename="Geometry/middle_distal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual17">
+      <geometry>
+        <mesh filename="Geometry/metacarpal4_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual18">
+      <geometry>
+        <mesh filename="Geometry/ring_proximal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual19">
+      <geometry>
+        <mesh filename="Geometry/ring_medial_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual20">
+      <geometry>
+        <mesh filename="Geometry/ring_distal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual21">
+      <geometry>
+        <mesh filename="Geometry/metacarpal5_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual22">
+      <geometry>
+        <mesh filename="Geometry/little_proximal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual23">
+      <geometry>
+        <mesh filename="Geometry/little_medial_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual24">
+      <geometry>
+        <mesh filename="Geometry/little_distal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual25">
+      <geometry>
+        <mesh filename="Geometry/metacarpal1_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual26">
+      <geometry>
+        <mesh filename="Geometry/thumb_proximal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual27">
+      <geometry>
+        <mesh filename="Geometry/thumb_distal_rvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="humerus_l">
+    <inertial>
+      <mass value="2.0325" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.011946" ixy="0.0" ixz="0.0" iyy="0.004121" iyz="0.0" izz="0.013409" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/humerus_lv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="ulna_l">
+    <inertial>
+      <mass value="0.6075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.002962" ixy="0.0" ixz="0.0" iyy="0.000618" iyz="0.0" izz="0.003213" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/ulna_lv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="radius_l">
+    <inertial>
+      <mass value="0.6075" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.002962" ixy="0.0" ixz="0.0" iyy="0.000618" iyz="0.0" izz="0.003213" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/radius_lv.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="hand_l">
+    <inertial>
+      <mass value="0.4575" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.000892" ixy="0.0" ixz="0.0" iyy="0.000547" iyz="0.0" izz="0.00134" />
+    </inertial>
+    <visual name="visual1">
+      <geometry>
+        <mesh filename="Geometry/pisiform_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual2">
+      <geometry>
+        <mesh filename="Geometry/lunate_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual3">
+      <geometry>
+        <mesh filename="Geometry/scaphoid_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual4">
+      <geometry>
+        <mesh filename="Geometry/triquetrum_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual5">
+      <geometry>
+        <mesh filename="Geometry/hamate_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual6">
+      <geometry>
+        <mesh filename="Geometry/capitate_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual7">
+      <geometry>
+        <mesh filename="Geometry/trapezoid_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual8">
+      <geometry>
+        <mesh filename="Geometry/trapezium_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual9">
+      <geometry>
+        <mesh filename="Geometry/metacarpal2_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual10">
+      <geometry>
+        <mesh filename="Geometry/index_proximal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual11">
+      <geometry>
+        <mesh filename="Geometry/index_medial_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual12">
+      <geometry>
+        <mesh filename="Geometry/index_distal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual13">
+      <geometry>
+        <mesh filename="Geometry/metacarpal3_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual14">
+      <geometry>
+        <mesh filename="Geometry/middle_proximal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual15">
+      <geometry>
+        <mesh filename="Geometry/middle_medial_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual16">
+      <geometry>
+        <mesh filename="Geometry/middle_distal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual17">
+      <geometry>
+        <mesh filename="Geometry/metacarpal4_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual18">
+      <geometry>
+        <mesh filename="Geometry/ring_proximal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual19">
+      <geometry>
+        <mesh filename="Geometry/ring_medial_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual20">
+      <geometry>
+        <mesh filename="Geometry/ring_distal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual21">
+      <geometry>
+        <mesh filename="Geometry/metacarpal5_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual22">
+      <geometry>
+        <mesh filename="Geometry/little_proximal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual23">
+      <geometry>
+        <mesh filename="Geometry/little_medial_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual24">
+      <geometry>
+        <mesh filename="Geometry/little_distal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual25">
+      <geometry>
+        <mesh filename="Geometry/metacarpal1_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual26">
+      <geometry>
+        <mesh filename="Geometry/thumb_proximal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <visual name="visual27">
+      <geometry>
+        <mesh filename="Geometry/thumb_distal_lvs.stl" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="back" type="spherical">
+    <origin rpy="0. 0. 0." xyz="-0.1007  0.0815  0.    " />
+    <parent link="pelvis" />
+    <child link="torso" />
+    <axis xyz="0 0 1" />
+    <limit lower = "1.57" effort = "400"/>
+  </joint>
+  <joint name="acromial_r" type="spherical">
+    <origin rpy="0. 0. 0." xyz="0.003155 0.3715   0.17    " />
+    <parent link="torso" />
+    <child link="humerus_r" />
+    <axis xyz="0 0 1" />
+    <limit lower="1.57" effort = "100"/>
+  </joint>
+  <joint name="elbow_r" type="revolute">
+    <origin rpy="0. 0. 0." xyz=" 0.013144 -0.286273 -0.009595" />
+    <parent link="humerus_r" />
+    <child link="ulna_r" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="3.0" effort = "100"/>
+  </joint>
+  <joint name="radioulnar_r" type="fixed">
+    <origin rpy="0. 1.57 0." xyz="-0.006727 -0.013007  0.026083" />
+    <parent link="ulna_r" />
+    <child link="radius_r" />
+  </joint>
+  <joint name="radius_hand_r" type="fixed">
+    <origin rpy="0. 0. 0." xyz="-0.008797 -0.235841  0.01361 " />
+    <parent link="radius_r" />
+    <child link="hand_r" />
+  </joint>
+  <joint name="acromial_l" type="spherical">
+    <origin rpy="0. 0. 0." xyz=" 0.003155  0.3715   -0.17    " />
+    <parent link="torso" />
+    <child link="humerus_l" />
+    <axis xyz="0 0 1" />
+    <limit lower="1.57" effort = "100"/>
+  </joint>
+  <joint name="elbow_l" type="revolute">
+    <origin rpy="0. 0. 0." xyz=" 0.013144 -0.286273  0.009595" />
+    <parent link="humerus_l" />
+    <child link="ulna_l" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="3.0" effort = "100"/>
+  </joint>
+  <joint name="radioulnar_l" type="fixed">
+    <origin rpy="0. -1.57 0." xyz="-0.006727 -0.013007 -0.026083" />
+    <parent link="ulna_l" />
+    <child link="radius_l" />
+  </joint>
+  <joint name="radius_hand_l" type="fixed">
+    <origin rpy="0. 0. 0." xyz="-0.008797 -0.235841 -0.01361 " />
+    <parent link="radius_l" />
+    <child link="hand_l" />
+  </joint>
+  <joint name="hip_r" type="spherical">
+    <origin rpy="0. 0. 0." xyz="-0.056276 -0.07849   0.07726 " />
+    <parent link="pelvis" />
+    <child link="femur_r" />
+    <axis xyz="0 0 1" />
+    <limit lower = "2.0" effort ="400.0"/>
+  </joint>
+  <joint name="walker_knee_r" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-4.600000e-07 -4.044252e-01 -1.265260e-03" />
+    <parent link="femur_r" />
+    <child link="tibia_r" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.2" upper="0" effort = "200" />
+  </joint>
+  <joint name="patellofemoral_r" type="fixed">
+    <origin rpy="0. 0. 0." xyz="-0.00809 -0.40796 -0.00275" />
+    <parent link="femur_r" />
+    <child link="patella_r" />
+  </joint>
+  <joint name="ankle_r" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-0.01 -0.4   0.  " />
+    <parent link="tibia_r" />
+    <child link="talus_r" />
+    <axis xyz="0 0 1" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+  <joint name="subtalar_r" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-0.04877 -0.04195  0.00792" />
+    <parent link="talus_r" />
+    <child link="calcn_r" />
+    <axis xyz="0.78717961000000003 0.60474746000000001 -0.12094949000000001" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+  <joint name="mtp_r" type="revolute">
+    <origin rpy="0. 0. 0." xyz=" 0.1788  -0.002    0.00108" />
+    <parent link="calcn_r" />
+    <child link="toes_r" />
+    <axis xyz="-0.58095439999999998 0 0.81393610999999999" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+  <joint name="hip_l" type="spherical">
+    <origin rpy="0. 0. 0." xyz="-0.056276 -0.07849  -0.07726 " />
+    <parent link="pelvis" />
+    <child link="femur_l" />
+    <axis xyz="0 0 1" />
+    <limit lower = "2.0" effort ="400.0"/>
+  </joint>
+  <joint name="walker_knee_l" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-4.600000e-07 -4.044252e-01  1.265260e-03" />
+    <parent link="femur_l" />
+    <child link="tibia_l" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.2" upper="0" effort = "200" />
+  </joint>
+  <joint name="patellofemoral_l" type="fixed">
+    <origin rpy="0. 0. 0." xyz="-0.00809 -0.40796  0.00275" />
+    <parent link="femur_l" />
+    <child link="patella_l" />
+  </joint>
+  <joint name="ankle_l" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-0.01 -0.4   0.  " />
+    <parent link="tibia_l" />
+    <child link="talus_l" />
+    <axis xyz="0 0 1" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+  <joint name="subtalar_l" type="revolute">
+    <origin rpy="0. 0. 0." xyz="-0.04877 -0.04195 -0.00792" />
+    <parent link="talus_l" />
+    <child link="calcn_l" />
+    <axis xyz="-0.78717961000000003 -0.60474746000000001 -0.12094949000000001" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+  <joint name="mtp_l" type="revolute">
+    <origin rpy="0. 0. 0." xyz=" 0.1788  -0.002   -0.00108" />
+    <parent link="calcn_l" />
+    <child link="toes_l" />
+    <axis xyz="0.58095439999999998 0 0.81393610999999999" />
+    <limit lower = "-1.57" upper = "1.57" effort="200.0"/>
+  </joint>
+</robot>

@@ -1,0 +1,3 @@
+Environment_0411_run_treadmill.hpp: 트레드밀 위에서 뛰는 env, 마찰력 구현되어있음
+Environment_0411_walk_treadmill.hpp: 트레드밀 위에서 걷는 env, 마찰력 구현되어있음
+Environment_no_treadmill_reward_update.hpp: 트레드밀 없는 건데, velocity reward 업데이트한거

@@ -1,0 +1,5571 @@
+{
+	"nMuscles": 92,
+	"Muscles": [
+		{
+			"Name": "glut_med1_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "819",
+			"optimal_fiber_length": "0.0535",
+			"tendon_slack_length": "0.078",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med1_r-P1",
+					"type": "Common",
+					"locationx": -0.0408,
+					"locationy": 0.0304,
+					"locationz": 0.1209,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med1_r-P2",
+					"type": "Common",
+					"locationx": -0.0218,
+					"locationy": -0.0117,
+					"locationz": 0.0555,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_med2_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "573",
+			"optimal_fiber_length": "0.0845",
+			"tendon_slack_length": "0.053",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med2_r-P1",
+					"type": "Common",
+					"locationx": -0.0855,
+					"locationy": 0.0445,
+					"locationz": 0.0766,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med2_r-P2",
+					"type": "Common",
+					"locationx": -0.0258,
+					"locationy": -0.0058,
+					"locationz": 0.0527,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_med3_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "653",
+			"optimal_fiber_length": "0.0646",
+			"tendon_slack_length": "0.053",
+			"pennation_angle": "0.33161256",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med3_r-P1",
+					"type": "Common",
+					"locationx": -0.1223,
+					"locationy": 0.0105,
+					"locationz": 0.0648,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med3_r-P2",
+					"type": "Common",
+					"locationx": -0.0309,
+					"locationy": -0.0047,
+					"locationz": 0.0518,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_min1_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "270",
+			"optimal_fiber_length": "0.068",
+			"tendon_slack_length": "0.016",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min1_r-P1",
+					"type": "Common",
+					"locationx": -0.0467,
+					"locationy": -0.008,
+					"locationz": 0.1056,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min1_r-P2",
+					"type": "Common",
+					"locationx": -0.0072,
+					"locationy": -0.0104,
+					"locationz": 0.056,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_min2_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "285",
+			"optimal_fiber_length": "0.056",
+			"tendon_slack_length": "0.026",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min2_r-P1",
+					"type": "Common",
+					"locationx": -0.0633,
+					"locationy": -0.0065,
+					"locationz": 0.0991,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min2_r-P2",
+					"type": "Common",
+					"locationx": -0.0096,
+					"locationy": -0.0104,
+					"locationz": 0.056,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_min3_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "323",
+			"optimal_fiber_length": "0.038",
+			"tendon_slack_length": "0.051",
+			"pennation_angle": "0.01745329",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min3_r-P1",
+					"type": "Common",
+					"locationx": -0.0834,
+					"locationy": -0.0063,
+					"locationz": 0.0856,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min3_r-P2",
+					"type": "Common",
+					"locationx": -0.0135,
+					"locationy": -0.0083,
+					"locationz": 0.055,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "semimem_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "1288",
+			"optimal_fiber_length": "0.08",
+			"tendon_slack_length": "0.359",
+			"pennation_angle": "0.26179939",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "semimem_r-P1",
+					"type": "Common",
+					"locationx": -0.1192,
+					"locationy": -0.09747,
+					"locationz": 0.07151,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "semimem_r-P2",
+					"type": "Conditional",
+					"locationx": -0.0348,
+					"locationy": -0.03519,
+					"locationz": -0.01891,
+					"body": "tibia_r",
+					"range": " -0.558505 0.174533",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "semimem_r-P3",
+					"type": "Common",
+					"locationx": -0.027,
+					"locationy": -0.04771,
+					"locationz": -0.01957,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "semiten_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "410",
+			"optimal_fiber_length": "0.201",
+			"tendon_slack_length": "0.2555",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "semiten_r-P1",
+					"type": "Common",
+					"locationx": -0.12635,
+					"locationy": -0.10988,
+					"locationz": 0.06039,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "semiten_r-P2",
+					"type": "Conditional",
+					"locationx": -0.04203,
+					"locationy": -0.02859,
+					"locationz": -0.02277,
+					"body": "tibia_r",
+					"range": " -0.331613 0.174533",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "semiten_r-P3",
+					"type": "Common",
+					"locationx": -0.03322,
+					"locationy": -0.05282,
+					"locationz": -0.02288,
+					"body": "tibia_r"
+				},
+				"path4": {
+					"Name": "semiten_r-P4",
+					"type": "Common",
+					"locationx": -0.0113,
+					"locationy": -0.0746,
+					"locationz": -0.0245,
+					"body": "tibia_r"
+				},
+				"path5": {
+					"Name": "semiten_r-P5",
+					"type": "Common",
+					"locationx": 0.0027,
+					"locationy": -0.0956,
+					"locationz": -0.0193,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "bifemlh_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "896",
+			"optimal_fiber_length": "0.109",
+			"tendon_slack_length": "0.326",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "bifemlh_r-P1",
+					"type": "Common",
+					"locationx": -0.12596,
+					"locationy": -0.10257,
+					"locationz": 0.06944,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "bifemlh_r-P2",
+					"type": "Common",
+					"locationx": -0.0301,
+					"locationy": -0.036,
+					"locationz": 0.02943,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "bifemlh_r-P3",
+					"type": "Common",
+					"locationx": -0.0234,
+					"locationy": -0.0563,
+					"locationz": 0.0343,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "bifemsh_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "804",
+			"optimal_fiber_length": "0.173",
+			"tendon_slack_length": "0.089",
+			"pennation_angle": "0.40142573",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "bifemsh_r-P1",
+					"type": "Common",
+					"locationx": 0.005,
+					"locationy": -0.2111,
+					"locationz": 0.0234,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "bifemsh_r-P2",
+					"type": "Common",
+					"locationx": -0.0301,
+					"locationy": -0.036,
+					"locationz": 0.02943,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "bifemsh_r-P3",
+					"type": "Common",
+					"locationx": -0.0234,
+					"locationy": -0.0563,
+					"locationz": 0.0343,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "sar_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "156",
+			"optimal_fiber_length": "0.52",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "sar_r-P1",
+					"type": "Common",
+					"locationx": -0.0153,
+					"locationy": -0.0013,
+					"locationz": 0.1242,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "sar_r-P2",
+					"type": "Common",
+					"locationx": -0.003,
+					"locationy": -0.3568,
+					"locationz": -0.0421,
+					"body": "femur_r"
+				},
+				"path3": {
+					"Name": "sar_r-P3",
+					"type": "Common",
+					"locationx": -0.0056,
+					"locationy": -0.0419,
+					"locationz": -0.0399,
+					"body": "tibia_r"
+				},
+				"path4": {
+					"Name": "sar_r-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0589,
+					"locationz": -0.0383,
+					"body": "tibia_r"
+				},
+				"path5": {
+					"Name": "sar_r-P5",
+					"type": "Common",
+					"locationx": 0.0243,
+					"locationy": -0.084,
+					"locationz": -0.0252,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "add_long_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "627",
+			"optimal_fiber_length": "0.138",
+			"tendon_slack_length": "0.11",
+			"pennation_angle": "0.10471976",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_long_r-P1",
+					"type": "Common",
+					"locationx": -0.0316,
+					"locationy": -0.0836,
+					"locationz": 0.0169,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_long_r-P2",
+					"type": "Common",
+					"locationx": 0.005,
+					"locationy": -0.2111,
+					"locationz": 0.0234,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "add_brev_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "429",
+			"optimal_fiber_length": "0.133",
+			"tendon_slack_length": "0.02",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_brev_r-P1",
+					"type": "Common",
+					"locationx": -0.0587,
+					"locationy": -0.0915,
+					"locationz": 0.0164,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_brev_r-P2",
+					"type": "Common",
+					"locationx": 0.0009,
+					"locationy": -0.1196,
+					"locationz": 0.0294,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "add_mag1_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "381",
+			"optimal_fiber_length": "0.087",
+			"tendon_slack_length": "0.06",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag1_r-P1",
+					"type": "Common",
+					"locationx": -0.0732,
+					"locationy": -0.1174,
+					"locationz": 0.0255,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag1_r-P2",
+					"type": "Common",
+					"locationx": -0.0045,
+					"locationy": -0.1211,
+					"locationz": 0.0339,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "add_mag2_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "343",
+			"optimal_fiber_length": "0.121",
+			"tendon_slack_length": "0.12",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag2_r-P1",
+					"type": "Common",
+					"locationx": -0.0831,
+					"locationy": -0.1192,
+					"locationz": 0.0308,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag2_r-P2",
+					"type": "Common",
+					"locationx": 0.0054,
+					"locationy": -0.2285,
+					"locationz": 0.0227,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "add_mag3_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "488",
+			"optimal_fiber_length": "0.131",
+			"tendon_slack_length": "0.249",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag3_r-P1",
+					"type": "Common",
+					"locationx": -0.11108,
+					"locationy": -0.11413,
+					"locationz": 0.04882,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag3_r-P2",
+					"type": "Common",
+					"locationx": 0.007,
+					"locationy": -0.3837,
+					"locationz": -0.0266,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "tfl_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "233",
+			"optimal_fiber_length": "0.095",
+			"tendon_slack_length": "0.425",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "tfl_r-P1",
+					"type": "Common",
+					"locationx": -0.0311,
+					"locationy": 0.0214,
+					"locationz": 0.1241,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "tfl_r-P2",
+					"type": "Common",
+					"locationx": 0.0294,
+					"locationy": -0.0995,
+					"locationz": 0.0597,
+					"body": "femur_r"
+				},
+				"path3": {
+					"Name": "tfl_r-P3",
+					"type": "Common",
+					"locationx": 0.0054,
+					"locationy": -0.4049,
+					"locationz": 0.0357,
+					"body": "femur_r"
+				},
+				"path4": {
+					"Name": "tfl_r-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0487,
+					"locationz": 0.0297,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "pect_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "266",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.033",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "pect_r-P1",
+					"type": "Common",
+					"locationx": -0.0431,
+					"locationy": -0.0768,
+					"locationz": 0.0451,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "pect_r-P2",
+					"type": "Common",
+					"locationx": -0.0122,
+					"locationy": -0.0822,
+					"locationz": 0.0253,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "grac_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "162",
+			"optimal_fiber_length": "0.352",
+			"tendon_slack_length": "0.126",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "grac_r-P1",
+					"type": "Common",
+					"locationx": -0.07401,
+					"locationy": -0.1187,
+					"locationz": 0.02794,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "grac_r-P2",
+					"type": "Conditional",
+					"locationx": -0.02657,
+					"locationy": -0.0319,
+					"locationz": -0.03774,
+					"body": "tibia_r",
+					"range": " -0.436332 0.174533",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "grac_r-P3",
+					"type": "Common",
+					"locationx": -0.01943,
+					"locationy": -0.05153,
+					"locationz": -0.0358,
+					"body": "tibia_r"
+				},
+				"path4": {
+					"Name": "grac_r-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0836,
+					"locationz": -0.0228,
+					"body": "tibia_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_max1_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "573",
+			"optimal_fiber_length": "0.142",
+			"tendon_slack_length": "0.125",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max1_r-P1",
+					"type": "Common",
+					"locationx": -0.1195,
+					"locationy": 0.0612,
+					"locationz": 0.07,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max1_r-P2",
+					"type": "Common",
+					"locationx": -0.1291,
+					"locationy": 0.0012,
+					"locationz": 0.0886,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max1_r-P3",
+					"type": "Common",
+					"locationx": -0.0457,
+					"locationy": -0.0248,
+					"locationz": 0.0392,
+					"body": "femur_r"
+				},
+				"path4": {
+					"Name": "glut_max1_r-P4",
+					"type": "Common",
+					"locationx": -0.0277,
+					"locationy": -0.0566,
+					"locationz": 0.047,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_max2_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "819",
+			"optimal_fiber_length": "0.147",
+			"tendon_slack_length": "0.127",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max2_r-P1",
+					"type": "Common",
+					"locationx": -0.1349,
+					"locationy": 0.0176,
+					"locationz": 0.0563,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max2_r-P2",
+					"type": "Common",
+					"locationx": -0.1376,
+					"locationy": -0.052,
+					"locationz": 0.0914,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max2_r-P3",
+					"type": "Common",
+					"locationx": -0.0426,
+					"locationy": -0.053,
+					"locationz": 0.0293,
+					"body": "femur_r"
+				},
+				"path4": {
+					"Name": "glut_max2_r-P4",
+					"type": "Common",
+					"locationx": -0.0156,
+					"locationy": -0.1016,
+					"locationz": 0.0419,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_max3_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "552",
+			"optimal_fiber_length": "0.144",
+			"tendon_slack_length": "0.145",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max3_r-P1",
+					"type": "Common",
+					"locationx": -0.1556,
+					"locationy": -0.0314,
+					"locationz": 0.0058,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max3_r-P2",
+					"type": "Common",
+					"locationx": -0.1529,
+					"locationy": -0.1052,
+					"locationz": 0.0403,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max3_r-P3",
+					"type": "Common",
+					"locationx": -0.0299,
+					"locationy": -0.1041,
+					"locationz": 0.0135,
+					"body": "femur_r"
+				},
+				"path4": {
+					"Name": "glut_max3_r-P4",
+					"type": "Common",
+					"locationx": -0.006,
+					"locationy": -0.1419,
+					"locationz": 0.0411,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "iliacus_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1073",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0.12217305",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "iliacus_r-P1",
+					"type": "Common",
+					"locationx": -0.0674,
+					"locationy": 0.0365,
+					"locationz": 0.0854,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "iliacus_r-P2",
+					"type": "Common",
+					"locationx": -0.0258,
+					"locationy": -0.055,
+					"locationz": 0.0811,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "iliacus_r-P3",
+					"type": "Conditional",
+					"locationx": -0.0288,
+					"locationy": -0.0805,
+					"locationz": 0.0816,
+					"body": "pelvis",
+					"range": " -1.5708 0.785398",
+					"coordinate": "hip_flexion_r"
+				},
+				"path4": {
+					"Name": "iliacus_r-P4",
+					"type": "Common",
+					"locationx": 0.0017,
+					"locationy": -0.0543,
+					"locationz": 0.0057,
+					"body": "femur_r"
+				},
+				"path5": {
+					"Name": "iliacus_r-P5",
+					"type": "Common",
+					"locationx": -0.0193,
+					"locationy": -0.0621,
+					"locationz": 0.0129,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "psoas_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1113",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.16",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "psoas_r-P1",
+					"type": "Common",
+					"locationx": -0.0647,
+					"locationy": 0.0887,
+					"locationz": 0.0289,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "psoas_r-P2",
+					"type": "Common",
+					"locationx": -0.0238,
+					"locationy": -0.057,
+					"locationz": 0.0759,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "psoas_r-P3",
+					"type": "Conditional",
+					"locationx": -0.0288,
+					"locationy": -0.0805,
+					"locationz": 0.0816,
+					"body": "pelvis",
+					"range": " -1.5708 0.785398",
+					"coordinate": "hip_flexion_r"
+				},
+				"path4": {
+					"Name": "psoas_r-P4",
+					"type": "Common",
+					"locationx": 0.0016,
+					"locationy": -0.0507,
+					"locationz": 0.0038,
+					"body": "femur_r"
+				},
+				"path5": {
+					"Name": "psoas_r-P5",
+					"type": "Common",
+					"locationx": -0.0188,
+					"locationy": -0.0597,
+					"locationz": 0.0104,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "quad_fem_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "381",
+			"optimal_fiber_length": "0.054",
+			"tendon_slack_length": "0.024",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "quad_fem_r-P1",
+					"type": "Common",
+					"locationx": -0.1143,
+					"locationy": -0.1151,
+					"locationz": 0.052,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "quad_fem_r-P2",
+					"type": "Common",
+					"locationx": -0.0381,
+					"locationy": -0.0359,
+					"locationz": 0.0366,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "gem_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "164",
+			"optimal_fiber_length": "0.024",
+			"tendon_slack_length": "0.039",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "gem_r-P1",
+					"type": "Common",
+					"locationx": -0.1133,
+					"locationy": -0.082,
+					"locationz": 0.0714,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "gem_r-P2",
+					"type": "Common",
+					"locationx": -0.0142,
+					"locationy": -0.0033,
+					"locationz": 0.0443,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "peri_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_r",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "444",
+			"optimal_fiber_length": "0.026",
+			"tendon_slack_length": "0.115",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "peri_r-P1",
+					"type": "Common",
+					"locationx": -0.1396,
+					"locationy": 0.0003,
+					"locationz": 0.0235,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "peri_r-P2",
+					"type": "Common",
+					"locationx": -0.1193,
+					"locationy": -0.0276,
+					"locationz": 0.0657,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "peri_r-P3",
+					"type": "Common",
+					"locationx": -0.0148,
+					"locationy": -0.0036,
+					"locationz": 0.0437,
+					"body": "femur_r"
+				}
+			}
+		},
+		{
+			"Name": "rect_fem_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1169",
+			"optimal_fiber_length": "0.114",
+			"tendon_slack_length": "0.31",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "rect_fem_r-P1",
+					"type": "Common",
+					"locationx": -0.0295,
+					"locationy": -0.0311,
+					"locationz": 0.0968,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "rect_fem_r-P2",
+					"type": "Conditional",
+					"locationx": 0.0334,
+					"locationy": -0.403,
+					"locationz": 0.0019,
+					"body": "femur_r",
+					"range": " -2.61799 -1.45997",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "rect_fem_r-P3",
+					"type": "Moving",
+					"locationx": 0.0617576,
+					"locationy": 0.020984,
+					"locationz": 0.0014,
+					"body": "tibia_r",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0155805 0.0179938 0.0275081 0.0296564 0.0307615 0.0365695 0.0422074 0.0450902 0.048391 0.0534299 0.0617576 0.0617669 0.0617762 0.0633083 0.066994 0.0733035 0.0573481"
+					},
+					"x_coordinate": "walker_knee_angle_r",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0234116 0.0237613 0.0251141 0.0252795 0.0253146 0.0249184 0.0242373 0.0238447 0.0234197 0.0227644 0.020984 0.0209814 0.0209788 0.0205225 0.0191754 0.0159554 -0.0673774"
+					},
+					"y_coordinate": "walker_knee_angle_r",
+					"z_location": {
+						"x": " -2.0944 0.1745",
+						"y": " 0.0014 0.0014"
+					},
+					"z_coordinate": "walker_knee_angle_r"
+				}
+			}
+		},
+		{
+			"Name": "vas_med_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_r",
+				"Path": [
+					4,
+					5
+				]
+			},
+			"max_isometric_force": "1294",
+			"optimal_fiber_length": "0.089",
+			"tendon_slack_length": "0.126",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_med_r-P1",
+					"type": "Common",
+					"locationx": 0.014,
+					"locationy": -0.2099,
+					"locationz": 0.0188,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "vas_med_r-P2",
+					"type": "Common",
+					"locationx": 0.0356,
+					"locationy": -0.2769,
+					"locationz": 0.0009,
+					"body": "femur_r"
+				},
+				"path3": {
+					"Name": "vas_med_r-P3",
+					"type": "Conditional",
+					"locationx": 0.037,
+					"locationy": -0.4048,
+					"locationz": -0.0125,
+					"body": "femur_r",
+					"range": " -2.61799 -1.21004",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path4": {
+					"Name": "vas_med_r-P4",
+					"type": "Conditional",
+					"locationx": 0.0274,
+					"locationy": -0.4255,
+					"locationz": -0.0131,
+					"body": "femur_r",
+					"range": " -2.61799 -1.78006",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path5": {
+					"Name": "vas_med_r-P5",
+					"type": "Moving",
+					"locationx": 0.0559586,
+					"locationy": 0.0217917,
+					"locationz": -0.0146,
+					"body": "tibia_r",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.00981097 0.0122243 0.0217371 0.0238851 0.0249902 0.0307959 0.0364187 0.0392871 0.0425654 0.0475764 0.0559586 0.0559681 0.0559776 0.0575419 0.0613368 0.0679503 0.0629332"
+					},
+					"x_coordinate": "walker_knee_angle_r",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0224154 0.0227651 0.0241265 0.0242933 0.0243287 0.0239462 0.0233593 0.0230677 0.0228342 0.0226362 0.0217917 0.0217903 0.0217889 0.0215365 0.0206842 0.0183269 -0.0656205"
+					},
+					"y_coordinate": "walker_knee_angle_r",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " -0.0146 -0.0146"
+					},
+					"z_coordinate": "walker_knee_angle_r"
+				}
+			}
+		},
+		{
+			"Name": "vas_int_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_r",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1365",
+			"optimal_fiber_length": "0.087",
+			"tendon_slack_length": "0.136",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_int_r-P1",
+					"type": "Common",
+					"locationx": 0.029,
+					"locationy": -0.1924,
+					"locationz": 0.031,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "vas_int_r-P2",
+					"type": "Common",
+					"locationx": 0.0335,
+					"locationy": -0.2084,
+					"locationz": 0.0285,
+					"body": "femur_r"
+				},
+				"path3": {
+					"Name": "vas_int_r-P3",
+					"type": "Conditional",
+					"locationx": 0.0343,
+					"locationy": -0.403,
+					"locationz": 0.0055,
+					"body": "femur_r",
+					"range": " -2.61799 -1.42",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path4": {
+					"Name": "vas_int_r-P4",
+					"type": "Moving",
+					"locationx": 0.0554632,
+					"locationy": 0.0252923,
+					"locationz": 0.0018,
+					"body": "tibia_r",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0082733 0.0106866 0.0202042 0.022353 0.0234583 0.0292715 0.0349465 0.037871 0.0412569 0.0465287 0.0554632 0.0554735 0.0554837 0.0571717 0.061272 0.0684368 0.0648818"
+					},
+					"x_coordinate": "walker_knee_angle_r",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.025599 0.0259487 0.0273124 0.0274796 0.0275151 0.0271363 0.0265737 0.0263073 0.0261187 0.0260129 0.0252923 0.0252911 0.0252898 0.0250526 0.0242191 0.0218288 -0.0685706"
+					},
+					"y_coordinate": "walker_knee_angle_r",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " 0.0018 0.0018"
+					},
+					"z_coordinate": "walker_knee_angle_r"
+				}
+			}
+		},
+		{
+			"Name": "vas_lat_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_r",
+				"Path": [
+					4,
+					5
+				]
+			},
+			"max_isometric_force": "1871",
+			"optimal_fiber_length": "0.084",
+			"tendon_slack_length": "0.157",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_lat_r-P1",
+					"type": "Common",
+					"locationx": 0.0048,
+					"locationy": -0.1854,
+					"locationz": 0.0349,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "vas_lat_r-P2",
+					"type": "Common",
+					"locationx": 0.0269,
+					"locationy": -0.2591,
+					"locationz": 0.0409,
+					"body": "femur_r"
+				},
+				"path3": {
+					"Name": "vas_lat_r-P3",
+					"type": "Conditional",
+					"locationx": 0.0361,
+					"locationy": -0.403,
+					"locationz": 0.0205,
+					"body": "femur_r",
+					"range": " -2.61799 -1.21004",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path4": {
+					"Name": "vas_lat_r-P4",
+					"type": "Conditional",
+					"locationx": 0.0253,
+					"locationy": -0.4243,
+					"locationz": 0.0184,
+					"body": "femur_r",
+					"range": " -2.61799 -1.92004",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path5": {
+					"Name": "vas_lat_r-P5",
+					"type": "Moving",
+					"locationx": 0.0599557,
+					"locationy": 0.0195864,
+					"locationz": 0.0165,
+					"body": "tibia_r",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0142897 0.016703 0.0262145 0.0283623 0.0294674 0.0352709 0.0408785 0.0437291 0.0469704 0.0518742 0.0599557 0.0599647 0.0599738 0.0614577 0.0650351 0.0711867 0.0583766"
+					},
+					"x_coordinate": "walker_knee_angle_r",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0215318 0.0218815 0.0232362 0.0234019 0.0234371 0.0230439 0.0223842 0.0220151 0.0216359 0.0210971 0.0195864 0.0195842 0.019582 0.01919 0.018008 0.0151073 -0.0653421"
+					},
+					"y_coordinate": "walker_knee_angle_r",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " 0.0165 0.0165"
+					},
+					"z_coordinate": "walker_knee_angle_r"
+				}
+			}
+		},
+		{
+			"Name": "med_gas_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1558",
+			"optimal_fiber_length": "0.06",
+			"tendon_slack_length": "0.39",
+			"pennation_angle": "0.29670597",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "med_gas_r-P1",
+					"type": "Common",
+					"locationx": -0.019,
+					"locationy": -0.3929,
+					"locationz": -0.0235,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "med_gas_r-P2",
+					"type": "Conditional",
+					"locationx": -0.03,
+					"locationy": -0.4022,
+					"locationz": -0.0258,
+					"body": "femur_r",
+					"range": " -0.785398 0.174533",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "med_gas_r-P3",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": -0.0053,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "lat_gas_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "walker_knee_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "683",
+			"optimal_fiber_length": "0.064",
+			"tendon_slack_length": "0.38",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "lat_gas_r-P1",
+					"type": "Common",
+					"locationx": -0.022,
+					"locationy": -0.3946,
+					"locationz": 0.0272,
+					"body": "femur_r"
+				},
+				"path2": {
+					"Name": "lat_gas_r-P2",
+					"type": "Conditional",
+					"locationx": -0.03,
+					"locationy": -0.4018,
+					"locationz": 0.0274,
+					"body": "femur_r",
+					"range": " -0.785398 0.174533",
+					"coordinate": "walker_knee_angle_r"
+				},
+				"path3": {
+					"Name": "lat_gas_r-P3",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": -0.0053,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "soleus_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "3549",
+			"optimal_fiber_length": "0.05",
+			"tendon_slack_length": "0.25",
+			"pennation_angle": "0.43633231",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "soleus_r-P1",
+					"type": "Common",
+					"locationx": -0.0024,
+					"locationy": -0.1533,
+					"locationz": 0.0071,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "soleus_r-P2",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": -0.0053,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "tib_post_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1588",
+			"optimal_fiber_length": "0.031",
+			"tendon_slack_length": "0.31",
+			"pennation_angle": "0.20943951",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "tib_post_r-P1",
+					"type": "Common",
+					"locationx": -0.0094,
+					"locationy": -0.1348,
+					"locationz": 0.0019,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "tib_post_r-P2",
+					"type": "Common",
+					"locationx": -0.0144,
+					"locationy": -0.4051,
+					"locationz": -0.0229,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "tib_post_r-P3",
+					"type": "Common",
+					"locationx": 0.0417,
+					"locationy": 0.0334,
+					"locationz": -0.0286,
+					"body": "calcn_r"
+				},
+				"path4": {
+					"Name": "tib_post_r-P4",
+					"type": "Common",
+					"locationx": 0.0772,
+					"locationy": 0.0159,
+					"locationz": -0.0281,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "flex_dig_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_r",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "310",
+			"optimal_fiber_length": "0.034",
+			"tendon_slack_length": "0.4",
+			"pennation_angle": "0.12217305",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 8,
+			"PathSet": {
+				"path1": {
+					"Name": "flex_dig_r-P1",
+					"type": "Common",
+					"locationx": -0.0083,
+					"locationy": -0.2046,
+					"locationz": -0.0018,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "flex_dig_r-P2",
+					"type": "Common",
+					"locationx": -0.0154,
+					"locationy": -0.4051,
+					"locationz": -0.0196,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "flex_dig_r-P3",
+					"type": "Common",
+					"locationx": 0.0436,
+					"locationy": 0.0315,
+					"locationz": -0.028,
+					"body": "calcn_r"
+				},
+				"path4": {
+					"Name": "flex_dig_r-P4",
+					"type": "Common",
+					"locationx": 0.0708,
+					"locationy": 0.0176,
+					"locationz": -0.0263,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "flex_dig_r-P5",
+					"type": "Common",
+					"locationx": 0.1658,
+					"locationy": -0.0081,
+					"locationz": 0.0116,
+					"body": "calcn_r"
+				},
+				"path6": {
+					"Name": "flex_dig_r-P6",
+					"type": "Common",
+					"locationx": -0.0019,
+					"locationy": -0.0078,
+					"locationz": 0.0147,
+					"body": "toes_r"
+				},
+				"path7": {
+					"Name": "flex_dig_r-P7",
+					"type": "Common",
+					"locationx": 0.0285,
+					"locationy": -0.0071,
+					"locationz": 0.0215,
+					"body": "toes_r"
+				},
+				"path8": {
+					"Name": "flex_dig_r-P8",
+					"type": "Common",
+					"locationx": 0.0441,
+					"locationy": -0.006,
+					"locationz": 0.0242,
+					"body": "toes_r"
+				}
+			}
+		},
+		{
+			"Name": "flex_hal_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_r",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "322",
+			"optimal_fiber_length": "0.043",
+			"tendon_slack_length": "0.38",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "flex_hal_r-P1",
+					"type": "Common",
+					"locationx": -0.0079,
+					"locationy": -0.2334,
+					"locationz": 0.0244,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "flex_hal_r-P2",
+					"type": "Common",
+					"locationx": -0.0186,
+					"locationy": -0.4079,
+					"locationz": -0.0174,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "flex_hal_r-P3",
+					"type": "Common",
+					"locationx": 0.0374,
+					"locationy": 0.0276,
+					"locationz": -0.0241,
+					"body": "calcn_r"
+				},
+				"path4": {
+					"Name": "flex_hal_r-P4",
+					"type": "Common",
+					"locationx": 0.1038,
+					"locationy": 0.0068,
+					"locationz": -0.0256,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "flex_hal_r-P5",
+					"type": "Common",
+					"locationx": 0.1726,
+					"locationy": -0.0053,
+					"locationz": -0.0269,
+					"body": "calcn_r"
+				},
+				"path6": {
+					"Name": "flex_hal_r-P6",
+					"type": "Common",
+					"locationx": 0.0155,
+					"locationy": -0.0064,
+					"locationz": -0.0265,
+					"body": "toes_r"
+				},
+				"path7": {
+					"Name": "flex_hal_r-P7",
+					"type": "Common",
+					"locationx": 0.0562,
+					"locationy": -0.0102,
+					"locationz": -0.0181,
+					"body": "toes_r"
+				}
+			}
+		},
+		{
+			"Name": "tib_ant_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "905",
+			"optimal_fiber_length": "0.098",
+			"tendon_slack_length": "0.223",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "tib_ant_r-P1",
+					"type": "Common",
+					"locationx": 0.0179,
+					"locationy": -0.1624,
+					"locationz": 0.0115,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "tib_ant_r-P2",
+					"type": "Common",
+					"locationx": 0.0329,
+					"locationy": -0.3951,
+					"locationz": -0.0177,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "tib_ant_r-P3",
+					"type": "Common",
+					"locationx": 0.1166,
+					"locationy": 0.0178,
+					"locationz": -0.0305,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "per_brev_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						3,
+						4
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "435",
+			"optimal_fiber_length": "0.05",
+			"tendon_slack_length": "0.161",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "per_brev_r-P1",
+					"type": "Common",
+					"locationx": -0.007,
+					"locationy": -0.2646,
+					"locationz": 0.0325,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "per_brev_r-P2",
+					"type": "Common",
+					"locationx": -0.0198,
+					"locationy": -0.4184,
+					"locationz": 0.0283,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "per_brev_r-P3",
+					"type": "Common",
+					"locationx": -0.0144,
+					"locationy": -0.4295,
+					"locationz": 0.0289,
+					"body": "tibia_r"
+				},
+				"path4": {
+					"Name": "per_brev_r-P4",
+					"type": "Common",
+					"locationx": 0.0471,
+					"locationy": 0.027,
+					"locationz": 0.0233,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "per_brev_r-P5",
+					"type": "Common",
+					"locationx": 0.0677,
+					"locationy": 0.0219,
+					"locationz": 0.0343,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "per_long_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						3,
+						4
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "943",
+			"optimal_fiber_length": "0.049",
+			"tendon_slack_length": "0.345",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "per_long_r-P1",
+					"type": "Common",
+					"locationx": 0.0005,
+					"locationy": -0.1568,
+					"locationz": 0.0362,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "per_long_r-P2",
+					"type": "Common",
+					"locationx": -0.0207,
+					"locationy": -0.4205,
+					"locationz": 0.0286,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "per_long_r-P3",
+					"type": "Common",
+					"locationx": -0.0162,
+					"locationy": -0.4319,
+					"locationz": 0.0289,
+					"body": "tibia_r"
+				},
+				"path4": {
+					"Name": "per_long_r-P4",
+					"type": "Common",
+					"locationx": 0.0438,
+					"locationy": 0.023,
+					"locationz": 0.0221,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "per_long_r-P5",
+					"type": "Common",
+					"locationx": 0.0681,
+					"locationy": 0.0106,
+					"locationz": 0.0284,
+					"body": "calcn_r"
+				},
+				"path6": {
+					"Name": "per_long_r-P6",
+					"type": "Common",
+					"locationx": 0.0852,
+					"locationy": 0.0069,
+					"locationz": 0.0118,
+					"body": "calcn_r"
+				},
+				"path7": {
+					"Name": "per_long_r-P7",
+					"type": "Common",
+					"locationx": 0.1203,
+					"locationy": 0.0085,
+					"locationz": -0.0184,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "per_tert_r",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "180",
+			"optimal_fiber_length": "0.079",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0.2268928",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "per_tert_r-P1",
+					"type": "Common",
+					"locationx": 0.001,
+					"locationy": -0.2804,
+					"locationz": 0.0231,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "per_tert_r-P2",
+					"type": "Common",
+					"locationx": 0.0229,
+					"locationy": -0.4069,
+					"locationz": 0.0159,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "per_tert_r-P3",
+					"type": "Common",
+					"locationx": 0.0857,
+					"locationy": 0.0228,
+					"locationz": 0.0299,
+					"body": "calcn_r"
+				}
+			}
+		},
+		{
+			"Name": "ext_dig_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_r",
+					"Path": [
+						4,
+						5
+					]
+				}
+			],
+			"max_isometric_force": "512",
+			"optimal_fiber_length": "0.102",
+			"tendon_slack_length": "0.345",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 6,
+			"PathSet": {
+				"path1": {
+					"Name": "ext_dig_r-P1",
+					"type": "Common",
+					"locationx": 0.0032,
+					"locationy": -0.1381,
+					"locationz": 0.0276,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "ext_dig_r-P2",
+					"type": "Common",
+					"locationx": 0.0289,
+					"locationy": -0.4007,
+					"locationz": 0.0072,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "ext_dig_r-P3",
+					"type": "Common",
+					"locationx": 0.0922,
+					"locationy": 0.0388,
+					"locationz": -0.0001,
+					"body": "calcn_r"
+				},
+				"path4": {
+					"Name": "ext_dig_r-P4",
+					"type": "Common",
+					"locationx": 0.1616,
+					"locationy": 0.0055,
+					"locationz": 0.013,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "ext_dig_r-P5",
+					"type": "Common",
+					"locationx": 0.0003,
+					"locationy": 0.0047,
+					"locationz": 0.0153,
+					"body": "toes_r"
+				},
+				"path6": {
+					"Name": "ext_dig_r-P6",
+					"type": "Common",
+					"locationx": 0.0443,
+					"locationy": -0.0004,
+					"locationz": 0.025,
+					"body": "toes_r"
+				}
+			}
+		},
+		{
+			"Name": "ext_hal_r",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_r",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_r",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "162",
+			"optimal_fiber_length": "0.111",
+			"tendon_slack_length": "0.305",
+			"pennation_angle": "0.10471976",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "ext_hal_r-P1",
+					"type": "Common",
+					"locationx": 0.0012,
+					"locationy": -0.1767,
+					"locationz": 0.0228,
+					"body": "tibia_r"
+				},
+				"path2": {
+					"Name": "ext_hal_r-P2",
+					"type": "Common",
+					"locationx": 0.0326,
+					"locationy": -0.3985,
+					"locationz": -0.0085,
+					"body": "tibia_r"
+				},
+				"path3": {
+					"Name": "ext_hal_r-P3",
+					"type": "Common",
+					"locationx": 0.097,
+					"locationy": 0.0389,
+					"locationz": -0.0211,
+					"body": "calcn_r"
+				},
+				"path4": {
+					"Name": "ext_hal_r-P4",
+					"type": "Common",
+					"locationx": 0.1293,
+					"locationy": 0.0309,
+					"locationz": -0.0257,
+					"body": "calcn_r"
+				},
+				"path5": {
+					"Name": "ext_hal_r-P5",
+					"type": "Common",
+					"locationx": 0.1734,
+					"locationy": 0.0139,
+					"locationz": -0.028,
+					"body": "calcn_r"
+				},
+				"path6": {
+					"Name": "ext_hal_r-P6",
+					"type": "Common",
+					"locationx": 0.0298,
+					"locationy": 0.0041,
+					"locationz": -0.0245,
+					"body": "toes_r"
+				},
+				"path7": {
+					"Name": "ext_hal_r-P7",
+					"type": "Common",
+					"locationx": 0.0563,
+					"locationy": 0.0034,
+					"locationz": -0.0186,
+					"body": "toes_r"
+				}
+			}
+		},
+		{
+			"Name": "glut_med1_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "819",
+			"optimal_fiber_length": "0.0535",
+			"tendon_slack_length": "0.078",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med1_l-P1",
+					"type": "Common",
+					"locationx": -0.0408,
+					"locationy": 0.0304,
+					"locationz": -0.1209,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med1_l-P2",
+					"type": "Common",
+					"locationx": -0.0218,
+					"locationy": -0.0117,
+					"locationz": -0.0555,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_med2_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "573",
+			"optimal_fiber_length": "0.0845",
+			"tendon_slack_length": "0.053",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med2_l-P1",
+					"type": "Common",
+					"locationx": -0.0855,
+					"locationy": 0.0445,
+					"locationz": -0.0766,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med2_l-P2",
+					"type": "Common",
+					"locationx": -0.0258,
+					"locationy": -0.0058,
+					"locationz": -0.0527,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_med3_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "653",
+			"optimal_fiber_length": "0.0646",
+			"tendon_slack_length": "0.053",
+			"pennation_angle": "0.33161256",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_med3_l-P1",
+					"type": "Common",
+					"locationx": -0.1223,
+					"locationy": 0.0105,
+					"locationz": -0.0648,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_med3_l-P2",
+					"type": "Common",
+					"locationx": -0.0309,
+					"locationy": -0.0047,
+					"locationz": -0.0518,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_min1_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "270",
+			"optimal_fiber_length": "0.068",
+			"tendon_slack_length": "0.016",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min1_l-P1",
+					"type": "Common",
+					"locationx": -0.0467,
+					"locationy": -0.008,
+					"locationz": -0.1056,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min1_l-P2",
+					"type": "Common",
+					"locationx": -0.0072,
+					"locationy": -0.0104,
+					"locationz": -0.056,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_min2_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "285",
+			"optimal_fiber_length": "0.056",
+			"tendon_slack_length": "0.026",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min2_l-P1",
+					"type": "Common",
+					"locationx": -0.0633,
+					"locationy": -0.0065,
+					"locationz": -0.0991,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min2_l-P2",
+					"type": "Common",
+					"locationx": -0.0096,
+					"locationy": -0.0104,
+					"locationz": -0.056,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_min3_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "323",
+			"optimal_fiber_length": "0.038",
+			"tendon_slack_length": "0.051",
+			"pennation_angle": "0.01745329",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_min3_l-P1",
+					"type": "Common",
+					"locationx": -0.0834,
+					"locationy": -0.0063,
+					"locationz": -0.0856,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_min3_l-P2",
+					"type": "Common",
+					"locationx": -0.0135,
+					"locationy": -0.0083,
+					"locationz": -0.055,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "semimem_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "1288",
+			"optimal_fiber_length": "0.08",
+			"tendon_slack_length": "0.359",
+			"pennation_angle": "0.26179939",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "semimem_l-P1",
+					"type": "Common",
+					"locationx": -0.1192,
+					"locationy": -0.09747,
+					"locationz": -0.07151,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "semimem_l-P2",
+					"type": "Conditional",
+					"locationx": -0.0348,
+					"locationy": -0.03519,
+					"locationz": 0.01891,
+					"body": "tibia_l",
+					"range": " -0.558505 0.174533",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "semimem_l-P3",
+					"type": "Common",
+					"locationx": -0.027,
+					"locationy": -0.04771,
+					"locationz": 0.01957,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "semiten_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "410",
+			"optimal_fiber_length": "0.201",
+			"tendon_slack_length": "0.2555",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "semiten_l-P1",
+					"type": "Common",
+					"locationx": -0.12635,
+					"locationy": -0.10988,
+					"locationz": -0.06039,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "semiten_l-P2",
+					"type": "Conditional",
+					"locationx": -0.04203,
+					"locationy": -0.02859,
+					"locationz": 0.02277,
+					"body": "tibia_l",
+					"range": " -0.331613 0.174533",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "semiten_l-P3",
+					"type": "Common",
+					"locationx": -0.03322,
+					"locationy": -0.05282,
+					"locationz": 0.02288,
+					"body": "tibia_l"
+				},
+				"path4": {
+					"Name": "semiten_l-P4",
+					"type": "Common",
+					"locationx": -0.0113,
+					"locationy": -0.0746,
+					"locationz": 0.0245,
+					"body": "tibia_l"
+				},
+				"path5": {
+					"Name": "semiten_l-P5",
+					"type": "Common",
+					"locationx": 0.0027,
+					"locationy": -0.0956,
+					"locationz": 0.0193,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "bifemlh_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "896",
+			"optimal_fiber_length": "0.109",
+			"tendon_slack_length": "0.326",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "bifemlh_l-P1",
+					"type": "Common",
+					"locationx": -0.12596,
+					"locationy": -0.10257,
+					"locationz": -0.06944,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "bifemlh_l-P2",
+					"type": "Common",
+					"locationx": -0.0301,
+					"locationy": -0.036,
+					"locationz": -0.02943,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "bifemlh_l-P3",
+					"type": "Common",
+					"locationx": -0.0234,
+					"locationy": -0.0563,
+					"locationz": -0.0343,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "bifemsh_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "804",
+			"optimal_fiber_length": "0.173",
+			"tendon_slack_length": "0.089",
+			"pennation_angle": "0.40142573",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "bifemsh_l-P1",
+					"type": "Common",
+					"locationx": 0.005,
+					"locationy": -0.2111,
+					"locationz": -0.0234,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "bifemsh_l-P2",
+					"type": "Common",
+					"locationx": -0.0301,
+					"locationy": -0.036,
+					"locationz": -0.02943,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "bifemsh_l-P3",
+					"type": "Common",
+					"locationx": -0.0234,
+					"locationy": -0.0563,
+					"locationz": -0.0343,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "sar_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "156",
+			"optimal_fiber_length": "0.52",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "sar_l-P1",
+					"type": "Common",
+					"locationx": -0.0153,
+					"locationy": -0.0013,
+					"locationz": -0.1242,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "sar_l-P2",
+					"type": "Common",
+					"locationx": -0.003,
+					"locationy": -0.3568,
+					"locationz": 0.0421,
+					"body": "femur_l"
+				},
+				"path3": {
+					"Name": "sar_l-P3",
+					"type": "Common",
+					"locationx": -0.0056,
+					"locationy": -0.0419,
+					"locationz": 0.0399,
+					"body": "tibia_l"
+				},
+				"path4": {
+					"Name": "sar_l-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0589,
+					"locationz": 0.0383,
+					"body": "tibia_l"
+				},
+				"path5": {
+					"Name": "sar_l-P5",
+					"type": "Common",
+					"locationx": 0.0243,
+					"locationy": -0.084,
+					"locationz": 0.0252,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "add_long_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "627",
+			"optimal_fiber_length": "0.138",
+			"tendon_slack_length": "0.11",
+			"pennation_angle": "0.10471976",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_long_l-P1",
+					"type": "Common",
+					"locationx": -0.0316,
+					"locationy": -0.0836,
+					"locationz": -0.0169,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_long_l-P2",
+					"type": "Common",
+					"locationx": 0.005,
+					"locationy": -0.2111,
+					"locationz": -0.0234,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "add_brev_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "429",
+			"optimal_fiber_length": "0.133",
+			"tendon_slack_length": "0.02",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_brev_l-P1",
+					"type": "Common",
+					"locationx": -0.0587,
+					"locationy": -0.0915,
+					"locationz": -0.0164,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_brev_l-P2",
+					"type": "Common",
+					"locationx": 0.0009,
+					"locationy": -0.1196,
+					"locationz": -0.0294,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "add_mag1_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "381",
+			"optimal_fiber_length": "0.087",
+			"tendon_slack_length": "0.06",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag1_l-P1",
+					"type": "Common",
+					"locationx": -0.0732,
+					"locationy": -0.1174,
+					"locationz": -0.0255,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag1_l-P2",
+					"type": "Common",
+					"locationx": -0.0045,
+					"locationy": -0.1211,
+					"locationz": -0.0339,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "add_mag2_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "343",
+			"optimal_fiber_length": "0.121",
+			"tendon_slack_length": "0.12",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag2_l-P1",
+					"type": "Common",
+					"locationx": -0.0831,
+					"locationy": -0.1192,
+					"locationz": -0.0308,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag2_l-P2",
+					"type": "Common",
+					"locationx": 0.0054,
+					"locationy": -0.2285,
+					"locationz": -0.0227,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "add_mag3_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "488",
+			"optimal_fiber_length": "0.131",
+			"tendon_slack_length": "0.249",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "add_mag3_l-P1",
+					"type": "Common",
+					"locationx": -0.11108,
+					"locationy": -0.11413,
+					"locationz": -0.04882,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "add_mag3_l-P2",
+					"type": "Common",
+					"locationx": 0.007,
+					"locationy": -0.3837,
+					"locationz": 0.0266,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "tfl_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "233",
+			"optimal_fiber_length": "0.095",
+			"tendon_slack_length": "0.425",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "tfl_l-P1",
+					"type": "Common",
+					"locationx": -0.0311,
+					"locationy": 0.0214,
+					"locationz": -0.1241,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "tfl_l-P2",
+					"type": "Common",
+					"locationx": 0.0294,
+					"locationy": -0.0995,
+					"locationz": -0.0597,
+					"body": "femur_l"
+				},
+				"path3": {
+					"Name": "tfl_l-P3",
+					"type": "Common",
+					"locationx": 0.0054,
+					"locationy": -0.4049,
+					"locationz": -0.0357,
+					"body": "femur_l"
+				},
+				"path4": {
+					"Name": "tfl_l-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0487,
+					"locationz": -0.0297,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "pect_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "266",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.033",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "pect_l-P1",
+					"type": "Common",
+					"locationx": -0.0431,
+					"locationy": -0.0768,
+					"locationz": -0.0451,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "pect_l-P2",
+					"type": "Common",
+					"locationx": -0.0122,
+					"locationy": -0.0822,
+					"locationz": -0.0253,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "grac_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "162",
+			"optimal_fiber_length": "0.352",
+			"tendon_slack_length": "0.126",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "grac_l-P1",
+					"type": "Common",
+					"locationx": -0.07401,
+					"locationy": -0.1187,
+					"locationz": -0.02794,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "grac_l-P2",
+					"type": "Conditional",
+					"locationx": -0.02657,
+					"locationy": -0.0319,
+					"locationz": 0.03774,
+					"body": "tibia_l",
+					"range": " -0.436332 0.174533",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "grac_l-P3",
+					"type": "Common",
+					"locationx": -0.01943,
+					"locationy": -0.05153,
+					"locationz": 0.0358,
+					"body": "tibia_l"
+				},
+				"path4": {
+					"Name": "grac_l-P4",
+					"type": "Common",
+					"locationx": 0.006,
+					"locationy": -0.0836,
+					"locationz": 0.0228,
+					"body": "tibia_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_max1_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "573",
+			"optimal_fiber_length": "0.142",
+			"tendon_slack_length": "0.125",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max1_l-P1",
+					"type": "Common",
+					"locationx": -0.1195,
+					"locationy": 0.0612,
+					"locationz": -0.07,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max1_l-P2",
+					"type": "Common",
+					"locationx": -0.1291,
+					"locationy": 0.0012,
+					"locationz": -0.0886,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max1_l-P3",
+					"type": "Common",
+					"locationx": -0.0457,
+					"locationy": -0.0248,
+					"locationz": -0.0392,
+					"body": "femur_l"
+				},
+				"path4": {
+					"Name": "glut_max1_l-P4",
+					"type": "Common",
+					"locationx": -0.0277,
+					"locationy": -0.0566,
+					"locationz": -0.047,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_max2_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "819",
+			"optimal_fiber_length": "0.147",
+			"tendon_slack_length": "0.127",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max2_l-P1",
+					"type": "Common",
+					"locationx": -0.1349,
+					"locationy": 0.0176,
+					"locationz": -0.0563,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max2_l-P2",
+					"type": "Common",
+					"locationx": -0.1376,
+					"locationy": -0.052,
+					"locationz": -0.0914,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max2_l-P3",
+					"type": "Common",
+					"locationx": -0.0426,
+					"locationy": -0.053,
+					"locationz": -0.0293,
+					"body": "femur_l"
+				},
+				"path4": {
+					"Name": "glut_max2_l-P4",
+					"type": "Common",
+					"locationx": -0.0156,
+					"locationy": -0.1016,
+					"locationz": -0.0419,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "glut_max3_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "552",
+			"optimal_fiber_length": "0.144",
+			"tendon_slack_length": "0.145",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "glut_max3_l-P1",
+					"type": "Common",
+					"locationx": -0.1556,
+					"locationy": -0.0314,
+					"locationz": -0.0058,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "glut_max3_l-P2",
+					"type": "Common",
+					"locationx": -0.1529,
+					"locationy": -0.1052,
+					"locationz": -0.0403,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "glut_max3_l-P3",
+					"type": "Common",
+					"locationx": -0.0299,
+					"locationy": -0.1041,
+					"locationz": -0.0135,
+					"body": "femur_l"
+				},
+				"path4": {
+					"Name": "glut_max3_l-P4",
+					"type": "Common",
+					"locationx": -0.006,
+					"locationy": -0.1419,
+					"locationz": -0.0411,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "iliacus_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1073",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0.12217305",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "iliacus_l-P1",
+					"type": "Common",
+					"locationx": -0.0674,
+					"locationy": 0.0365,
+					"locationz": -0.0854,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "iliacus_l-P2",
+					"type": "Common",
+					"locationx": -0.0258,
+					"locationy": -0.055,
+					"locationz": -0.0811,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "iliacus_l-P3",
+					"type": "Conditional",
+					"locationx": -0.0288,
+					"locationy": -0.0805,
+					"locationz": -0.0816,
+					"body": "pelvis",
+					"range": " -1.5708 0.785398",
+					"coordinate": "hip_flexion_l"
+				},
+				"path4": {
+					"Name": "iliacus_l-P4",
+					"type": "Common",
+					"locationx": 0.0017,
+					"locationy": -0.0543,
+					"locationz": -0.0057,
+					"body": "femur_l"
+				},
+				"path5": {
+					"Name": "iliacus_l-P5",
+					"type": "Common",
+					"locationx": -0.0193,
+					"locationy": -0.0621,
+					"locationz": -0.0129,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "psoas_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1113",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.16",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "psoas_l-P1",
+					"type": "Common",
+					"locationx": -0.0647,
+					"locationy": 0.0887,
+					"locationz": -0.0289,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "psoas_l-P2",
+					"type": "Common",
+					"locationx": -0.0238,
+					"locationy": -0.057,
+					"locationz": -0.0759,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "psoas_l-P3",
+					"type": "Conditional",
+					"locationx": -0.0288,
+					"locationy": -0.0805,
+					"locationz": -0.0816,
+					"body": "pelvis",
+					"range": " -1.5708 0.785398",
+					"coordinate": "hip_flexion_l"
+				},
+				"path4": {
+					"Name": "psoas_l-P4",
+					"type": "Common",
+					"locationx": 0.0016,
+					"locationy": -0.0507,
+					"locationz": -0.0038,
+					"body": "femur_l"
+				},
+				"path5": {
+					"Name": "psoas_l-P5",
+					"type": "Common",
+					"locationx": -0.0188,
+					"locationy": -0.0597,
+					"locationz": -0.0104,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "quad_fem_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "381",
+			"optimal_fiber_length": "0.054",
+			"tendon_slack_length": "0.024",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "quad_fem_l-P1",
+					"type": "Common",
+					"locationx": -0.1143,
+					"locationy": -0.1151,
+					"locationz": -0.052,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "quad_fem_l-P2",
+					"type": "Common",
+					"locationx": -0.0381,
+					"locationy": -0.0359,
+					"locationz": -0.0366,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "gem_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "164",
+			"optimal_fiber_length": "0.024",
+			"tendon_slack_length": "0.039",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "gem_l-P1",
+					"type": "Common",
+					"locationx": -0.1133,
+					"locationy": -0.082,
+					"locationz": -0.0714,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "gem_l-P2",
+					"type": "Common",
+					"locationx": -0.0142,
+					"locationy": -0.0033,
+					"locationz": -0.0443,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "peri_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "hip_l",
+				"Path": [
+					2,
+					3
+				]
+			},
+			"max_isometric_force": "444",
+			"optimal_fiber_length": "0.026",
+			"tendon_slack_length": "0.115",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "peri_l-P1",
+					"type": "Common",
+					"locationx": -0.1396,
+					"locationy": 0.0003,
+					"locationz": -0.0235,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "peri_l-P2",
+					"type": "Common",
+					"locationx": -0.1193,
+					"locationy": -0.0276,
+					"locationz": -0.0657,
+					"body": "pelvis"
+				},
+				"path3": {
+					"Name": "peri_l-P3",
+					"type": "Common",
+					"locationx": -0.0148,
+					"locationy": -0.0036,
+					"locationz": -0.0437,
+					"body": "femur_l"
+				}
+			}
+		},
+		{
+			"Name": "rect_fem_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "hip_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1169",
+			"optimal_fiber_length": "0.114",
+			"tendon_slack_length": "0.31",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "rect_fem_l-P1",
+					"type": "Common",
+					"locationx": -0.0295,
+					"locationy": -0.0311,
+					"locationz": -0.0968,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "rect_fem_l-P2",
+					"type": "Conditional",
+					"locationx": 0.0334,
+					"locationy": -0.403,
+					"locationz": -0.0019,
+					"body": "femur_l",
+					"range": " -2.61799 -1.45997",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "rect_fem_l-P3",
+					"type": "Moving",
+					"locationx": 0.0617576,
+					"locationy": 0.020984,
+					"locationz": -0.0014,
+					"body": "tibia_l",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0155805 0.0179938 0.0275081 0.0296564 0.0307615 0.0365695 0.0422074 0.0450902 0.048391 0.0534299 0.0617576 0.0617669 0.0617762 0.0633083 0.066994 0.0733035 0.0573481"
+					},
+					"x_coordinate": "walker_knee_angle_l",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0234116 0.0237613 0.0251141 0.0252795 0.0253146 0.0249184 0.0242373 0.0238447 0.0234197 0.0227644 0.020984 0.0209814 0.0209788 0.0205225 0.0191754 0.0159554 -0.0673774"
+					},
+					"y_coordinate": "walker_knee_angle_l",
+					"z_location": {
+						"x": " -2.0944 0.1745",
+						"y": " -0.0014 -0.0014"
+					},
+					"z_coordinate": "walker_knee_angle_l"
+				}
+			}
+		},
+		{
+			"Name": "vas_med_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_l",
+				"Path": [
+					4,
+					5
+				]
+			},
+			"max_isometric_force": "1294",
+			"optimal_fiber_length": "0.089",
+			"tendon_slack_length": "0.126",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_med_l-P1",
+					"type": "Common",
+					"locationx": 0.014,
+					"locationy": -0.2099,
+					"locationz": -0.0188,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "vas_med_l-P2",
+					"type": "Common",
+					"locationx": 0.0356,
+					"locationy": -0.2769,
+					"locationz": -0.0009,
+					"body": "femur_l"
+				},
+				"path3": {
+					"Name": "vas_med_l-P3",
+					"type": "Conditional",
+					"locationx": 0.037,
+					"locationy": -0.4048,
+					"locationz": 0.0125,
+					"body": "femur_l",
+					"range": " -2.61799 -1.21004",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path4": {
+					"Name": "vas_med_l-P4",
+					"type": "Conditional",
+					"locationx": 0.0274,
+					"locationy": -0.4255,
+					"locationz": 0.0131,
+					"body": "femur_l",
+					"range": " -2.61799 -1.78006",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path5": {
+					"Name": "vas_med_l-P5",
+					"type": "Moving",
+					"locationx": 0.0559586,
+					"locationy": 0.0217917,
+					"locationz": 0.0146,
+					"body": "tibia_l",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.00981097 0.0122243 0.0217371 0.0238851 0.0249902 0.0307959 0.0364187 0.0392871 0.0425654 0.0475764 0.0559586 0.0559681 0.0559776 0.0575419 0.0613368 0.0679503 0.0629332"
+					},
+					"x_coordinate": "walker_knee_angle_l",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0224154 0.0227651 0.0241265 0.0242933 0.0243287 0.0239462 0.0233593 0.0230677 0.0228342 0.0226362 0.0217917 0.0217903 0.0217889 0.0215365 0.0206842 0.0183269 -0.0656205"
+					},
+					"y_coordinate": "walker_knee_angle_l",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " 0.0146 0.0146"
+					},
+					"z_coordinate": "walker_knee_angle_l"
+				}
+			}
+		},
+		{
+			"Name": "vas_int_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_l",
+				"Path": [
+					3,
+					4
+				]
+			},
+			"max_isometric_force": "1365",
+			"optimal_fiber_length": "0.087",
+			"tendon_slack_length": "0.136",
+			"pennation_angle": "0.05235988",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_int_l-P1",
+					"type": "Common",
+					"locationx": 0.029,
+					"locationy": -0.1924,
+					"locationz": -0.031,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "vas_int_l-P2",
+					"type": "Common",
+					"locationx": 0.0335,
+					"locationy": -0.2084,
+					"locationz": -0.0285,
+					"body": "femur_l"
+				},
+				"path3": {
+					"Name": "vas_int_l-P3",
+					"type": "Conditional",
+					"locationx": 0.0343,
+					"locationy": -0.403,
+					"locationz": -0.0055,
+					"body": "femur_l",
+					"range": " -2.61799 -1.42",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path4": {
+					"Name": "vas_int_l-P4",
+					"type": "Moving",
+					"locationx": 0.0617576,
+					"locationy": 0.020984,
+					"locationz": -0.0014,
+					"body": "tibia_l",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0082733 0.0106866 0.0202042 0.022353 0.0234583 0.0292715 0.0349465 0.037871 0.0412569 0.0465287 0.0554632 0.0554735 0.0554837 0.0571717 0.061272 0.0684368 0.0648818"
+					},
+					"x_coordinate": "walker_knee_angle_l",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.025599 0.0259487 0.0273124 0.0274796 0.0275151 0.0271363 0.0265737 0.0263073 0.0261187 0.0260129 0.0252923 0.0252911 0.0252898 0.0250526 0.0242191 0.0218288 -0.0685706"
+					},
+					"y_coordinate": "walker_knee_angle_l",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " -0.0018 -0.0018"
+					},
+					"z_coordinate": "walker_knee_angle_l"
+				}
+			}
+		},
+		{
+			"Name": "vas_lat_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "walker_knee_l",
+				"Path": [
+					4,
+					5
+				]
+			},
+			"max_isometric_force": "1871",
+			"optimal_fiber_length": "0.084",
+			"tendon_slack_length": "0.157",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "vas_lat_l-P1",
+					"type": "Common",
+					"locationx": 0.0048,
+					"locationy": -0.1854,
+					"locationz": -0.0349,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "vas_lat_l-P2",
+					"type": "Common",
+					"locationx": 0.0269,
+					"locationy": -0.2591,
+					"locationz": -0.0409,
+					"body": "femur_l"
+				},
+				"path3": {
+					"Name": "vas_lat_l-P3",
+					"type": "Conditional",
+					"locationx": 0.0361,
+					"locationy": -0.403,
+					"locationz": -0.0205,
+					"body": "femur_l",
+					"range": " -2.61799 -1.21004",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path4": {
+					"Name": "vas_lat_l-P4",
+					"type": "Conditional",
+					"locationx": 0.0253,
+					"locationy": -0.4243,
+					"locationz": -0.0184,
+					"body": "femur_l",
+					"range": " -2.61799 -1.92004",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path5": {
+					"Name": "vas_lat_l-P5",
+					"type": "Moving",
+					"locationx": 0.0599557,
+					"locationy": 0.0195864,
+					"locationz": -0.0165,
+					"body": "tibia_l",
+					"x_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0142897 0.016703 0.0262145 0.0283623 0.0294674 0.0352709 0.0408785 0.0437291 0.0469704 0.0518742 0.0599557 0.0599647 0.0599738 0.0614577 0.0650351 0.0711867 0.0583766"
+					},
+					"x_coordinate": "walker_knee_angle_l",
+					"y_location": {
+						"x": " -2.0944 -1.99997 -1.5708 -1.45752 -1.39626 -1.0472 -0.698132 -0.526391 -0.349066 -0.174533 0 0.00017453 0.00034907 0.0279253 0.0872665 0.174533 2.0944",
+						"y": " 0.0215318 0.0218815 0.0232362 0.0234019 0.0234371 0.0230439 0.0223842 0.0220151 0.0216359 0.0210971 0.0195864 0.0195842 0.019582 0.01919 0.018008 0.0151073 -0.0653421"
+					},
+					"y_coordinate": "walker_knee_angle_l",
+					"z_location": {
+						"x": " -2.0944 2.0944",
+						"y": " -0.0165 -0.0165"
+					},
+					"z_coordinate": "walker_knee_angle_l"
+				}
+			}
+		},
+		{
+			"Name": "med_gas_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1558",
+			"optimal_fiber_length": "0.06",
+			"tendon_slack_length": "0.39",
+			"pennation_angle": "0.29670597",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "med_gas_l-P1",
+					"type": "Common",
+					"locationx": -0.019,
+					"locationy": -0.3929,
+					"locationz": 0.0235,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "med_gas_l-P2",
+					"type": "Conditional",
+					"locationx": -0.03,
+					"locationy": -0.4022,
+					"locationz": 0.0258,
+					"body": "femur_l",
+					"range": " -0.785398 0.174533",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "med_gas_l-P3",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": 0.0053,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "lat_gas_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "walker_knee_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "683",
+			"optimal_fiber_length": "0.064",
+			"tendon_slack_length": "0.38",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "lat_gas_l-P1",
+					"type": "Common",
+					"locationx": -0.022,
+					"locationy": -0.3946,
+					"locationz": -0.0272,
+					"body": "femur_l"
+				},
+				"path2": {
+					"Name": "lat_gas_l-P2",
+					"type": "Conditional",
+					"locationx": -0.03,
+					"locationy": -0.4018,
+					"locationz": -0.0274,
+					"body": "femur_l",
+					"range": " -0.785398 0.174533",
+					"coordinate": "walker_knee_angle_l"
+				},
+				"path3": {
+					"Name": "lat_gas_l-P3",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": 0.0053,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "soleus_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						1,
+						2
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						1,
+						2
+					]
+				}
+			],
+			"max_isometric_force": "3549",
+			"optimal_fiber_length": "0.05",
+			"tendon_slack_length": "0.25",
+			"pennation_angle": "0.43633231",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "soleus_l-P1",
+					"type": "Common",
+					"locationx": -0.0024,
+					"locationy": -0.1533,
+					"locationz": -0.0071,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "soleus_l-P2",
+					"type": "Common",
+					"locationx": 0,
+					"locationy": 0.031,
+					"locationz": 0.0053,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "tib_post_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "1588",
+			"optimal_fiber_length": "0.031",
+			"tendon_slack_length": "0.31",
+			"pennation_angle": "0.20943951",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 4,
+			"PathSet": {
+				"path1": {
+					"Name": "tib_post_l-P1",
+					"type": "Common",
+					"locationx": -0.0094,
+					"locationy": -0.1348,
+					"locationz": -0.0019,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "tib_post_l-P2",
+					"type": "Common",
+					"locationx": -0.0144,
+					"locationy": -0.4051,
+					"locationz": 0.0229,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "tib_post_l-P3",
+					"type": "Common",
+					"locationx": 0.0417,
+					"locationy": 0.0334,
+					"locationz": 0.0286,
+					"body": "calcn_l"
+				},
+				"path4": {
+					"Name": "tib_post_l-P4",
+					"type": "Common",
+					"locationx": 0.0772,
+					"locationy": 0.0159,
+					"locationz": 0.0281,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "flex_dig_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_l",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "310",
+			"optimal_fiber_length": "0.034",
+			"tendon_slack_length": "0.4",
+			"pennation_angle": "0.12217305",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 8,
+			"PathSet": {
+				"path1": {
+					"Name": "flex_dig_l-P1",
+					"type": "Common",
+					"locationx": -0.0083,
+					"locationy": -0.2046,
+					"locationz": 0.0018,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "flex_dig_l-P2",
+					"type": "Common",
+					"locationx": -0.0154,
+					"locationy": -0.4051,
+					"locationz": 0.0196,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "flex_dig_l-P3",
+					"type": "Common",
+					"locationx": 0.0436,
+					"locationy": 0.0315,
+					"locationz": 0.028,
+					"body": "calcn_l"
+				},
+				"path4": {
+					"Name": "flex_dig_l-P4",
+					"type": "Common",
+					"locationx": 0.0708,
+					"locationy": 0.0176,
+					"locationz": 0.0263,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "flex_dig_l-P5",
+					"type": "Common",
+					"locationx": 0.1658,
+					"locationy": -0.0081,
+					"locationz": -0.0116,
+					"body": "calcn_l"
+				},
+				"path6": {
+					"Name": "flex_dig_l-P6",
+					"type": "Common",
+					"locationx": -0.0019,
+					"locationy": -0.0078,
+					"locationz": -0.0147,
+					"body": "toes_l"
+				},
+				"path7": {
+					"Name": "flex_dig_l-P7",
+					"type": "Common",
+					"locationx": 0.0285,
+					"locationy": -0.0071,
+					"locationz": -0.0215,
+					"body": "toes_l"
+				},
+				"path8": {
+					"Name": "flex_dig_l-P8",
+					"type": "Common",
+					"locationx": 0.0441,
+					"locationy": -0.006,
+					"locationz": -0.0242,
+					"body": "toes_l"
+				}
+			}
+		},
+		{
+			"Name": "flex_hal_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_l",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "322",
+			"optimal_fiber_length": "0.043",
+			"tendon_slack_length": "0.38",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "flex_hal_l-P1",
+					"type": "Common",
+					"locationx": -0.0079,
+					"locationy": -0.2334,
+					"locationz": -0.0244,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "flex_hal_l-P2",
+					"type": "Common",
+					"locationx": -0.0186,
+					"locationy": -0.4079,
+					"locationz": 0.0174,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "flex_hal_l-P3",
+					"type": "Common",
+					"locationx": 0.0374,
+					"locationy": 0.0276,
+					"locationz": 0.0241,
+					"body": "calcn_l"
+				},
+				"path4": {
+					"Name": "flex_hal_l-P4",
+					"type": "Common",
+					"locationx": 0.1038,
+					"locationy": 0.0068,
+					"locationz": 0.0256,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "flex_hal_l-P5",
+					"type": "Common",
+					"locationx": 0.1726,
+					"locationy": -0.0053,
+					"locationz": 0.0269,
+					"body": "calcn_l"
+				},
+				"path6": {
+					"Name": "flex_hal_l-P6",
+					"type": "Common",
+					"locationx": 0.0155,
+					"locationy": -0.0064,
+					"locationz": 0.0265,
+					"body": "toes_l"
+				},
+				"path7": {
+					"Name": "flex_hal_l-P7",
+					"type": "Common",
+					"locationx": 0.0562,
+					"locationy": -0.0102,
+					"locationz": 0.0181,
+					"body": "toes_l"
+				}
+			}
+		},
+		{
+			"Name": "tib_ant_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "905",
+			"optimal_fiber_length": "0.098",
+			"tendon_slack_length": "0.223",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "tib_ant_l-P1",
+					"type": "Common",
+					"locationx": 0.0179,
+					"locationy": -0.1624,
+					"locationz": -0.0115,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "tib_ant_l-P2",
+					"type": "Common",
+					"locationx": 0.0329,
+					"locationy": -0.3951,
+					"locationz": 0.0177,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "tib_ant_l-P3",
+					"type": "Common",
+					"locationx": 0.1166,
+					"locationy": 0.0178,
+					"locationz": 0.0305,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "per_brev_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						3,
+						4
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "435",
+			"optimal_fiber_length": "0.05",
+			"tendon_slack_length": "0.161",
+			"pennation_angle": "0.08726646",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 5,
+			"PathSet": {
+				"path1": {
+					"Name": "per_brev_l-P1",
+					"type": "Common",
+					"locationx": -0.007,
+					"locationy": -0.2646,
+					"locationz": -0.0325,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "per_brev_l-P2",
+					"type": "Common",
+					"locationx": -0.0198,
+					"locationy": -0.4184,
+					"locationz": -0.0283,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "per_brev_l-P3",
+					"type": "Common",
+					"locationx": -0.0144,
+					"locationy": -0.4295,
+					"locationz": -0.0289,
+					"body": "tibia_l"
+				},
+				"path4": {
+					"Name": "per_brev_l-P4",
+					"type": "Common",
+					"locationx": 0.0471,
+					"locationy": 0.027,
+					"locationz": -0.0233,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "per_brev_l-P5",
+					"type": "Common",
+					"locationx": 0.0677,
+					"locationy": 0.0219,
+					"locationz": -0.0343,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "per_long_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						3,
+						4
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						3,
+						4
+					]
+				}
+			],
+			"max_isometric_force": "943",
+			"optimal_fiber_length": "0.049",
+			"tendon_slack_length": "0.345",
+			"pennation_angle": "0.17453293",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "per_long_l-P1",
+					"type": "Common",
+					"locationx": 0.0005,
+					"locationy": -0.1568,
+					"locationz": -0.0362,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "per_long_l-P2",
+					"type": "Common",
+					"locationx": -0.0207,
+					"locationy": -0.4205,
+					"locationz": -0.0286,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "per_long_l-P3",
+					"type": "Common",
+					"locationx": -0.0162,
+					"locationy": -0.4319,
+					"locationz": -0.0289,
+					"body": "tibia_l"
+				},
+				"path4": {
+					"Name": "per_long_l-P4",
+					"type": "Common",
+					"locationx": 0.0438,
+					"locationy": 0.023,
+					"locationz": -0.0221,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "per_long_l-P5",
+					"type": "Common",
+					"locationx": 0.0681,
+					"locationy": 0.0106,
+					"locationz": -0.0284,
+					"body": "calcn_l"
+				},
+				"path6": {
+					"Name": "per_long_l-P6",
+					"type": "Common",
+					"locationx": 0.0852,
+					"locationy": 0.0069,
+					"locationz": -0.0118,
+					"body": "calcn_l"
+				},
+				"path7": {
+					"Name": "per_long_l-P7",
+					"type": "Common",
+					"locationx": 0.1203,
+					"locationy": 0.0085,
+					"locationz": 0.0184,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "per_tert_l",
+			"nTargetJoint": 2,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				}
+			],
+			"max_isometric_force": "180",
+			"optimal_fiber_length": "0.079",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0.2268928",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 3,
+			"PathSet": {
+				"path1": {
+					"Name": "per_tert_l-P1",
+					"type": "Common",
+					"locationx": 0.001,
+					"locationy": -0.2804,
+					"locationz": -0.0231,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "per_tert_l-P2",
+					"type": "Common",
+					"locationx": 0.0229,
+					"locationy": -0.4069,
+					"locationz": -0.0159,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "per_tert_l-P3",
+					"type": "Common",
+					"locationx": 0.0857,
+					"locationy": 0.0228,
+					"locationz": -0.0299,
+					"body": "calcn_l"
+				}
+			}
+		},
+		{
+			"Name": "ext_dig_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_l",
+					"Path": [
+						4,
+						5
+					]
+				}
+			],
+			"max_isometric_force": "512",
+			"optimal_fiber_length": "0.102",
+			"tendon_slack_length": "0.345",
+			"pennation_angle": "0.13962634",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 6,
+			"PathSet": {
+				"path1": {
+					"Name": "ext_dig_l-P1",
+					"type": "Common",
+					"locationx": 0.0032,
+					"locationy": -0.1381,
+					"locationz": -0.0276,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "ext_dig_l-P2",
+					"type": "Common",
+					"locationx": 0.0289,
+					"locationy": -0.4007,
+					"locationz": -0.0072,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "ext_dig_l-P3",
+					"type": "Common",
+					"locationx": 0.0922,
+					"locationy": 0.0388,
+					"locationz": 0.0001,
+					"body": "calcn_l"
+				},
+				"path4": {
+					"Name": "ext_dig_l-P4",
+					"type": "Common",
+					"locationx": 0.1616,
+					"locationy": 0.0055,
+					"locationz": -0.013,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "ext_dig_l-P5",
+					"type": "Common",
+					"locationx": 0.0003,
+					"locationy": 0.0047,
+					"locationz": -0.0153,
+					"body": "toes_l"
+				},
+				"path6": {
+					"Name": "ext_dig_l-P6",
+					"type": "Common",
+					"locationx": 0.0443,
+					"locationy": -0.0004,
+					"locationz": -0.025,
+					"body": "toes_l"
+				}
+			}
+		},
+		{
+			"Name": "ext_hal_l",
+			"nTargetJoint": 3,
+			"TargetJoint": [
+				{
+					"Joint": "ankle_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "subtalar_l",
+					"Path": [
+						2,
+						3
+					]
+				},
+				{
+					"Joint": "mtp_l",
+					"Path": [
+						5,
+						6
+					]
+				}
+			],
+			"max_isometric_force": "162",
+			"optimal_fiber_length": "0.111",
+			"tendon_slack_length": "0.305",
+			"pennation_angle": "0.10471976",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 7,
+			"PathSet": {
+				"path1": {
+					"Name": "ext_hal_l-P1",
+					"type": "Common",
+					"locationx": 0.0012,
+					"locationy": -0.1767,
+					"locationz": -0.0228,
+					"body": "tibia_l"
+				},
+				"path2": {
+					"Name": "ext_hal_l-P2",
+					"type": "Common",
+					"locationx": 0.0326,
+					"locationy": -0.3985,
+					"locationz": 0.0085,
+					"body": "tibia_l"
+				},
+				"path3": {
+					"Name": "ext_hal_l-P3",
+					"type": "Common",
+					"locationx": 0.097,
+					"locationy": 0.0389,
+					"locationz": 0.0211,
+					"body": "calcn_l"
+				},
+				"path4": {
+					"Name": "ext_hal_l-P4",
+					"type": "Common",
+					"locationx": 0.1293,
+					"locationy": 0.0309,
+					"locationz": 0.0257,
+					"body": "calcn_l"
+				},
+				"path5": {
+					"Name": "ext_hal_l-P5",
+					"type": "Common",
+					"locationx": 0.1734,
+					"locationy": 0.0139,
+					"locationz": 0.028,
+					"body": "calcn_l"
+				},
+				"path6": {
+					"Name": "ext_hal_l-P6",
+					"type": "Common",
+					"locationx": 0.0298,
+					"locationy": 0.0041,
+					"locationz": 0.0245,
+					"body": "toes_l"
+				},
+				"path7": {
+					"Name": "ext_hal_l-P7",
+					"type": "Common",
+					"locationx": 0.0563,
+					"locationy": 0.0034,
+					"locationz": 0.0186,
+					"body": "toes_l"
+				}
+			}
+		},
+		{
+			"Name": "ercspn_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "2500",
+			"optimal_fiber_length": "0.12",
+			"tendon_slack_length": "0.03",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "ercspn_r-P1",
+					"type": "Common",
+					"locationx": -0.14,
+					"locationy": 0.0439,
+					"locationz": 0.0436,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "ercspn_r-P2",
+					"type": "Common",
+					"locationx": -0.055,
+					"locationy": 0.11,
+					"locationz": 0.0241,
+					"body": "torso"
+				}
+			}
+		},
+		{
+			"Name": "ercspn_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "2500",
+			"optimal_fiber_length": "0.12",
+			"tendon_slack_length": "0.03",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "ercspn_l-P1",
+					"type": "Common",
+					"locationx": -0.14,
+					"locationy": 0.0439,
+					"locationz": -0.0436,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "ercspn_l-P2",
+					"type": "Common",
+					"locationx": -0.055,
+					"locationy": 0.11,
+					"locationz": -0.0241,
+					"body": "torso"
+				}
+			}
+		},
+		{
+			"Name": "intobl_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "900",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "intobl_r-P1",
+					"type": "Common",
+					"locationx": -0.04,
+					"locationy": 0.07,
+					"locationz": 0.1157,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "intobl_r-P2",
+					"type": "Common",
+					"locationx": 0.07,
+					"locationy": 0.16,
+					"locationz": 0.015,
+					"body": "torso"
+				}
+			}
+		},
+		{
+			"Name": "intobl_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "900",
+			"optimal_fiber_length": "0.1",
+			"tendon_slack_length": "0.1",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "intobl_l-P1",
+					"type": "Common",
+					"locationx": -0.04,
+					"locationy": 0.07,
+					"locationz": -0.1157,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "intobl_l-P2",
+					"type": "Common",
+					"locationx": 0.07,
+					"locationy": 0.16,
+					"locationz": -0.015,
+					"body": "torso"
+				}
+			}
+		},
+		{
+			"Name": "extobl_r",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "900",
+			"optimal_fiber_length": "0.12",
+			"tendon_slack_length": "0.14",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "extobl_r-P1",
+					"type": "Common",
+					"locationx": -0.03,
+					"locationy": -0.0636,
+					"locationz": 0.01,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "extobl_r-P2",
+					"type": "Common",
+					"locationx": 0.065,
+					"locationy": 0.11,
+					"locationz": 0.11,
+					"body": "torso"
+				}
+			}
+		},
+		{
+			"Name": "extobl_l",
+			"nTargetJoint": 1,
+			"TargetJoint": {
+				"Joint": "back",
+				"Path": [
+					1,
+					2
+				]
+			},
+			"max_isometric_force": "900",
+			"optimal_fiber_length": "0.12",
+			"tendon_slack_length": "0.14",
+			"pennation_angle": "0",
+			"max_velocity": "10",
+			"activation_time": "0.01",
+			"deactivation_time": "0.04",
+			"FmaxTendonStrain": "0.033",
+			"KshapeActive": "0.5",
+			"KshapePassive": "4",
+			"Af": "0.3",
+			"Flen": "1.8",
+			"nPath": 2,
+			"PathSet": {
+				"path1": {
+					"Name": "extobl_l-P1",
+					"type": "Common",
+					"locationx": -0.03,
+					"locationy": -0.0636,
+					"locationz": -0.01,
+					"body": "pelvis"
+				},
+				"path2": {
+					"Name": "extobl_l-P2",
+					"type": "Common",
+					"locationx": 0.065,
+					"locationy": 0.11,
+					"locationz": -0.11,
+					"body": "torso"
+				}
+			}
+		}
+	]
+}

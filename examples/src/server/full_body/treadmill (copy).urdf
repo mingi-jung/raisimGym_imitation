@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<robot name="treadmill">
+
+    <link name="world"/>
+
+    <link name="treadmill_belt">
+        <visual>
+            <geometry>
+                <box size="1 1 1" />
+            </geometry>
+            <material name="treadmill">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0.078375"/>
+            <geometry>
+                <box size="1 1 1" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="joint_world_to_belt" type="prismatic">
+        <parent link="world"/>
+        <child link="treadmill_belt"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+
+    <!-- <joint name="joint_base_to_belt" type="fixed">
+        <parent link="kinova_link_base"/>
+        <child link="kinova_link_base_inertia"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+
+    <link name="treadmill_belt">
+        <inertial>
+            <mass value="0.46784"/>
+            <origin rpy="0 0 0" xyz="0 0 0.1255"/>
+            <inertia ixx="0.000951270861568" ixy="0" ixz="0" iyy="0.000951270861568" iyz="0" izz="0.000374272"/>
+        </inertial>
+    </link> -->
+
+</robot>

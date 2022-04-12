@@ -1,0 +1,4 @@
+Environment_reward_update.hpp: velocuty reward를 수정한거
+Environment_deepmimicutility.hpp: deepmimic utility 사용해서 리워드 계산하려 한거
+Environment_treamill_yes_urdf_yes.hpp: urdf로 만든 트레드밀 이용해서 트레드밀 돌아가게 한뒤 시뮬레이션 하는거 
+Environment_treadmill_urdf_pd.hpp : pd 게인 조절해서 트레드밀 urdf 30, 5kg 짜리 테스트 할 수 있는 것
